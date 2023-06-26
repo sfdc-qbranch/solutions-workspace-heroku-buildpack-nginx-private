@@ -9,7 +9,7 @@ PCRE_VERSION=${PCRE_VERSION-8.45}
 HEADERS_MORE_VERSION=${HEADERS_MORE_VERSION-0.34}
 ZLIB_VERSION=${ZLIB_VERSION-1.2.13}
 UUID4_VERSION=${UUID4_VERSION-master}
-NJS_VERSION=${NJS_VERSION-0.5.3}
+NJS_VERSION=${NJS_VERSION-0.7.12}
 
 nginx_tarball_url=https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz
 njs_url=https://github.com/nginx/njs/archive/${NJS_VERSION}.tar.gz
@@ -40,7 +40,7 @@ echo "Downloading $uuid4_url"
 
 echo "Downloading $njs_url"
 (cd nginx-${NGINX_VERSION} && curl -L $njs_url | tar xvz )
-ls -l ${temp_dir}/nginx-${NGINX_VERSION}
+# ls -l ${temp_dir}/nginx-${NGINX_VERSION}
 
 # echo "Downloading $njs_tarball_url"
 # (cd nginx-${NGINX_VERSION} && curl -L $njs_tarball_url | tar xvz )
@@ -62,7 +62,7 @@ ls -l ${temp_dir}/nginx-${NGINX_VERSION}
   make install
 )
 
-# This will build `nginx-debug`
+This will build `nginx-debug`
 (
   cd nginx-${NGINX_VERSION}
   ./configure \
@@ -74,7 +74,8 @@ ls -l ${temp_dir}/nginx-${NGINX_VERSION}
     --with-http_ssl_module \
     --prefix=/tmp/nginx-debug \
     --add-module=${temp_dir}/nginx-${NGINX_VERSION}/headers-more-nginx-module-${HEADERS_MORE_VERSION} \
-    --add-module=${temp_dir}/nginx-${NGINX_VERSION}/nginx-uuid4-module-${UUID4_VERSION}
+    --add-module=${temp_dir}/nginx-${NGINX_VERSION}/nginx-uuid4-module-${UUID4_VERSION} \
+    --add-module=${temp_dir}/nginx-${NGINX_VERSION}/njs-${NJS_VERSION}/nginx
   make install
 )
 
@@ -82,9 +83,23 @@ release_dir=$(mktemp -d /tmp/nginx.XXXXXXXXXX)
 echo "checking dirs"
 echo "release dir: $release_dir"
 echo "temp dir: $temp_dir"
-ls -l /tmp/nginx/sbin/
+ls -l 
 pwd
-cp /tmp/nginx/sbin/nginx $release_dir/nginx
+find / -name nginx
+echo "***********************"
+find / -name sbin
+echo "***********************"
+ls -l /sbin
+echo "***********************"
+ls -l /tmp/nginx
+echo "***********************"
+ls -l /tmp
+echo "***********************"
+ls -l $temp_dir
+
+
+# cp /tmp/nginx/sbin/nginx $release_dir/nginx
+# cp /sbin/nginx $release_dir/nginx
 cp /tmp/nginx-debug/sbin/nginx $release_dir/nginx-debug
 cp /tmp/nginx/conf/mime.types $release_dir/mime.types
 tar -zcvf /tmp/nginx-"${STACK}".tgz -C $release_dir .

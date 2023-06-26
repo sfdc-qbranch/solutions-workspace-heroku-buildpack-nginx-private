@@ -1,0 +1,2708 @@
+Building nginx in Docker for heroku-22...
+Temp dir: /tmp/nginx.tRBPXmazZn
+Downloading https://nginx.org/download/nginx-1.25.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0nginx-1.25.1/
+nginx-1.25.1/auto/
+nginx-1.25.1/conf/
+nginx-1.25.1/contrib/
+nginx-1.25.1/src/
+nginx-1.25.1/configure
+nginx-1.25.1/LICENSE
+nginx-1.25.1/README
+nginx-1.25.1/html/
+nginx-1.25.1/man/
+nginx-1.25.1/CHANGES.ru
+nginx-1.25.1/CHANGES
+nginx-1.25.1/man/nginx.8
+nginx-1.25.1/html/50x.html
+nginx-1.25.1/html/index.html
+nginx-1.25.1/src/core/
+nginx-1.25.1/src/event/
+nginx-1.25.1/src/http/
+nginx-1.25.1/src/mail/
+nginx-1.25.1/src/misc/
+nginx-1.25.1/src/os/
+nginx-1.25.1/src/stream/
+nginx-1.25.1/src/stream/ngx_stream.c
+nginx-1.25.1/src/stream/ngx_stream.h
+nginx-1.25.1/src/stream/ngx_stream_access_module.c
+nginx-1.25.1/src/stream/ngx_stream_core_module.c
+nginx-1.25.1/src/stream/ngx_stream_geo_module.c
+nginx-1.25.1/src/stream/ngx_stream_geoip_module.c
+nginx-1.25.1/src/stream/ngx_stream_handler.c
+nginx-1.25.1/src/stream/ngx_stream_limit_conn_module.c
+nginx-1.25.1/src/stream/ngx_stream_log_module.c
+nginx-1.25.1/src/stream/ngx_stream_map_module.c
+nginx-1.25.1/src/stream/ngx_stream_proxy_module.c
+nginx-1.25.1/src/stream/ngx_stream_realip_module.c
+nginx-1.25.1/src/stream/ngx_stream_return_module.c
+nginx-1.25.1/src/stream/ngx_stream_script.c
+nginx-1.25.1/src/stream/ngx_stream_script.h
+nginx-1.25.1/src/stream/ngx_stream_set_module.c
+nginx-1.25.1/src/stream/ngx_stream_split_clients_module.c
+nginx-1.25.1/src/stream/ngx_stream_ssl_module.c
+nginx-1.25.1/src/stream/ngx_stream_ssl_module.h
+nginx-1.25.1/src/stream/ngx_stream_ssl_preread_module.c
+nginx-1.25.1/src/stream/ngx_stream_upstream.c
+nginx-1.25.1/src/stream/ngx_stream_upstream.h
+nginx-1.25.1/src/stream/ngx_stream_upstream_hash_module.c
+nginx-1.25.1/src/stream/ngx_stream_upstream_least_conn_module.c
+nginx-1.25.1/src/stream/ngx_stream_upstream_random_module.c
+nginx-1.25.1/src/stream/ngx_stream_upstream_round_robin.c
+nginx-1.25.1/src/stream/ngx_stream_upstream_round_robin.h
+nginx-1.25.1/src/stream/ngx_stream_upstream_zone_module.c
+nginx-1.25.1/src/stream/ngx_stream_variables.c
+nginx-1.25.1/src/stream/ngx_stream_variables.h
+nginx-1.25.1/src/stream/ngx_stream_write_filter_module.c
+nginx-1.25.1/src/os/unix/
+nginx-1.25.1/src/os/win32/
+nginx-1.25.1/src/os/win32/nginx.ico
+nginx-1.25.1/src/os/win32/nginx.rc
+nginx-1.25.1/src/os/win32/nginx_icon16.xpm
+nginx-1.25.1/src/os/win32/nginx_icon32.xpm
+nginx-1.25.1/src/os/win32/nginx_icon48.xpm
+nginx-1.25.1/src/os/win32/ngx_alloc.c
+nginx-1.25.1/src/os/win32/ngx_alloc.h
+nginx-1.25.1/src/os/win32/ngx_atomic.h
+nginx-1.25.1/src/os/win32/ngx_dlopen.c
+nginx-1.25.1/src/os/win32/ngx_dlopen.h
+nginx-1.25.1/src/os/win32/ngx_errno.c
+nginx-1.25.1/src/os/win32/ngx_errno.h
+nginx-1.25.1/src/os/win32/ngx_event_log.c
+nginx-1.25.1/src/os/win32/ngx_files.c
+nginx-1.25.1/src/os/win32/ngx_files.h
+nginx-1.25.1/src/os/win32/ngx_os.h
+nginx-1.25.1/src/os/win32/ngx_process.c
+nginx-1.25.1/src/os/win32/ngx_process.h
+nginx-1.25.1/src/os/win32/ngx_process_cycle.c
+nginx-1.25.1/src/os/win32/ngx_process_cycle.h
+nginx-1.25.1/src/os/win32/ngx_service.c
+nginx-1.25.1/src/os/win32/ngx_shmem.c
+nginx-1.25.1/src/os/win32/ngx_shmem.h
+nginx-1.25.1/src/os/win32/ngx_socket.c
+nginx-1.25.1/src/os/win32/ngx_socket.h
+nginx-1.25.1/src/os/win32/ngx_stat.c
+nginx-1.25.1/src/os/win32/ngx_thread.c
+nginx-1.25.1/src/os/win32/ngx_thread.h
+nginx-1.25.1/src/os/win32/ngx_time.c
+nginx-1.25.1/src/os/win32/ngx_time.h
+nginx-1.25.1/src/os/win32/ngx_udp_wsarecv.c
+nginx-1.25.1/src/os/win32/ngx_user.c
+nginx-1.25.1/src/os/win32/ngx_user.h
+nginx-1.25.1/src/os/win32/ngx_win32_config.h
+nginx-1.25.1/src/os/win32/ngx_win32_init.c
+nginx-1.25.1/src/os/win32/ngx_wsarecv.c
+nginx-1.25.1/src/os/win32/ngx_wsarecv_chain.c
+nginx-1.25.1/src/os/win32/ngx_wsasend.c
+nginx-1.25.1/src/os/win32/ngx_wsasend_chain.c
+nginx-1.25.1/src/os/unix/ngx_alloc.c
+nginx-1.25.1/src/os/unix/ngx_alloc.h
+nginx-1.25.1/src/os/unix/ngx_atomic.h
+nginx-1.25.1/src/os/unix/ngx_channel.c
+nginx-1.25.1/src/os/unix/ngx_channel.h
+nginx-1.25.1/src/os/unix/ngx_daemon.c
+nginx-1.25.1/src/os/unix/ngx_darwin.h
+nginx-1.25.1/src/os/unix/ngx_darwin_config.h
+nginx-1.25.1/src/os/unix/ngx_darwin_init.c
+nginx-1.25.1/src/os/unix/ngx_darwin_sendfile_chain.c
+nginx-1.25.1/src/os/unix/ngx_dlopen.c
+nginx-1.25.1/src/os/unix/ngx_dlopen.h
+nginx-1.25.1/src/os/unix/ngx_errno.c
+nginx-1.25.1/src/os/unix/ngx_errno.h
+nginx-1.25.1/src/os/unix/ngx_file_aio_read.c
+nginx-1.25.1/src/os/unix/ngx_files.c
+nginx-1.25.1/src/os/unix/ngx_files.h
+nginx-1.25.1/src/os/unix/ngx_freebsd.h
+nginx-1.25.1/src/os/unix/ngx_freebsd_config.h
+nginx-1.25.1/src/os/unix/ngx_linux.h
+nginx-1.25.1/src/os/unix/ngx_freebsd_init.c
+nginx-1.25.1/src/os/unix/ngx_freebsd_sendfile_chain.c
+nginx-1.25.1/src/os/unix/ngx_gcc_atomic_amd64.h
+nginx-1.25.1/src/os/unix/ngx_gcc_atomic_ppc.h
+nginx-1.25.1/src/os/unix/ngx_gcc_atomic_sparc64.h
+nginx-1.25.1/src/os/unix/ngx_gcc_atomic_x86.h
+nginx-1.25.1/src/os/unix/ngx_linux_aio_read.c
+nginx-1.25.1/src/os/unix/ngx_linux_config.h
+nginx-1.25.1/src/os/unix/ngx_linux_init.c
+nginx-1.25.1/src/os/unix/ngx_linux_sendfile_chain.c
+nginx-1.25.1/src/os/unix/ngx_os.h
+nginx-1.25.1/src/os/unix/ngx_posix_config.h
+nginx-1.25.1/src/os/unix/ngx_posix_init.c
+nginx-1.25.1/src/os/unix/ngx_process.c
+nginx-1.25.1/src/os/unix/ngx_process.h
+nginx-1.25.1/src/os/unix/ngx_process_cycle.c
+nginx-1.25.1/src/os/unix/ngx_process_cycle.h
+nginx-1.25.1/src/os/unix/ngx_readv_chain.c
+nginx-1.25.1/src/os/unix/ngx_recv.c
+nginx-1.25.1/src/os/unix/ngx_send.c
+nginx-1.25.1/src/os/unix/ngx_setaffinity.c
+nginx-1.25.1/src/os/unix/ngx_setaffinity.h
+nginx-1.25.1/src/os/unix/ngx_setproctitle.c
+nginx-1.25.1/src/os/unix/ngx_setproctitle.h
+nginx-1.25.1/src/os/unix/ngx_shmem.c
+nginx-1.25.1/src/os/unix/ngx_shmem.h
+nginx-1.25.1/src/os/unix/ngx_socket.c
+nginx-1.25.1/src/os/unix/ngx_socket.h
+nginx-1.25.1/src/os/unix/ngx_solaris.h
+nginx-1.25.1/src/os/unix/ngx_solaris_config.h
+nginx-1.25.1/src/os/unix/ngx_solaris_init.c
+nginx-1.25.1/src/os/unix/ngx_solaris_sendfilev_chain.c
+nginx-1.25.1/src/os/unix/ngx_sunpro_amd64.il
+nginx-1.25.1/src/os/unix/ngx_sunpro_atomic_sparc64.h
+nginx-1.25.1/src/os/unix/ngx_sunpro_sparc64.il
+nginx-1.25.1/src/os/unix/ngx_thread.h
+nginx-1.25.1/src/os/unix/ngx_sunpro_x86.il
+nginx-1.25.1/src/os/unix/ngx_thread_cond.c
+nginx-1.25.1/src/os/unix/ngx_thread_id.c
+nginx-1.25.1/src/os/unix/ngx_thread_mutex.c
+nginx-1.25.1/src/os/unix/ngx_time.c
+nginx-1.25.1/src/os/unix/ngx_time.h
+nginx-1.25.1/src/os/unix/ngx_udp_recv.c
+nginx-1.25.1/src/os/unix/ngx_udp_send.c
+nginx-1.25.1/src/os/unix/ngx_udp_sendmsg_chain.c
+nginx-1.25.1/src/os/unix/ngx_user.c
+nginx-1.25.1/src/os/unix/ngx_user.h
+nginx-1.25.1/src/os/unix/ngx_writev_chain.c
+nginx-1.25.1/src/misc/ngx_cpp_test_module.cpp
+nginx-1.25.1/src/misc/ngx_google_perftools_module.c
+nginx-1.25.1/src/mail/ngx_mail.c
+nginx-1.25.1/src/mail/ngx_mail.h
+nginx-1.25.1/src/mail/ngx_mail_auth_http_module.c
+nginx-1.25.1/src/mail/ngx_mail_core_module.c
+nginx-1.25.1/src/mail/ngx_mail_handler.c
+nginx-1.25.1/src/mail/ngx_mail_imap_handler.c
+nginx-1.25.1/src/mail/ngx_mail_imap_module.c
+nginx-1.25.1/src/mail/ngx_mail_imap_module.h
+nginx-1.25.1/src/mail/ngx_mail_parse.c
+nginx-1.25.1/src/mail/ngx_mail_pop3_handler.c
+nginx-1.25.1/src/mail/ngx_mail_pop3_module.c
+nginx-1.25.1/src/mail/ngx_mail_pop3_module.h
+nginx-1.25.1/src/mail/ngx_mail_proxy_module.c
+nginx-1.25.1/src/mail/ngx_mail_realip_module.c
+nginx-1.25.1/src/mail/ngx_mail_smtp_handler.c
+nginx-1.25.1/src/mail/ngx_mail_smtp_module.c
+nginx-1.25.1/src/mail/ngx_mail_smtp_module.h
+nginx-1.25.1/src/mail/ngx_mail_ssl_module.c
+nginx-1.25.1/src/mail/ngx_mail_ssl_module.h
+nginx-1.25.1/src/http/modules/
+nginx-1.25.1/src/http/ngx_http.c
+nginx-1.25.1/src/http/ngx_http.h
+nginx-1.25.1/src/http/ngx_http_cache.h
+nginx-1.25.1/src/http/ngx_http_config.h
+nginx-1.25.1/src/http/ngx_http_copy_filter_module.c
+nginx-1.25.1/src/http/ngx_http_core_module.c
+nginx-1.25.1/src/http/ngx_http_core_module.h
+nginx-1.25.1/src/http/ngx_http_file_cache.c
+nginx-1.25.1/src/http/ngx_http_header_filter_module.c
+nginx-1.25.1/src/http/ngx_http_huff_decode.c
+nginx-1.25.1/src/http/ngx_http_huff_encode.c
+nginx-1.25.1/src/http/ngx_http_parse.c
+nginx-1.25.1/src/http/ngx_http_postpone_filter_module.c
+nginx-1.25.1/src/http/ngx_http_request.c
+nginx-1.25.1/src/http/ngx_http_request.h
+nginx-1.25.1/src/http/ngx_http_request_body.c
+nginx-1.25.1/src/http/ngx_http_script.c
+nginx-1.25.1/src/http/ngx_http_script.h
+nginx-1.25.1/src/http/ngx_http_special_response.c
+nginx-1.25.1/src/http/ngx_http_upstream.c
+nginx-1.25.1/src/http/ngx_http_upstream.h
+nginx-1.25.1/src/http/ngx_http_upstream_round_robin.c
+nginx-1.25.1/src/http/ngx_http_upstream_round_robin.h
+nginx-1.25.1/src/http/ngx_http_variables.c
+nginx-1.25.1/src/http/ngx_http_variables.h
+nginx-1.25.1/src/http/ngx_http_write_filter_module.c
+nginx-1.25.1/src/http/v2/
+nginx-1.25.1/src/http/v3/
+nginx-1.25.1/src/http/v3/ngx_http_v3.c
+nginx-1.25.1/src/http/v3/ngx_http_v3.h
+nginx-1.25.1/src/http/v3/ngx_http_v3_encode.c
+nginx-1.25.1/src/http/v3/ngx_http_v3_encode.h
+nginx-1.25.1/src/http/v3/ngx_http_v3_filter_module.c
+nginx-1.25.1/src/http/v3/ngx_http_v3_module.c
+nginx-1.25.1/src/http/v3/ngx_http_v3_parse.c
+nginx-1.25.1/src/http/v3/ngx_http_v3_parse.h
+nginx-1.25.1/src/http/v3/ngx_http_v3_request.c
+nginx-1.25.1/src/http/v3/ngx_http_v3_table.c
+nginx-1.25.1/src/http/v3/ngx_http_v3_table.h
+nginx-1.25.1/src/http/v3/ngx_http_v3_uni.c
+nginx-1.25.1/src/http/v3/ngx_http_v3_uni.h
+nginx-1.25.1/src/http/v2/ngx_http_v2.c
+nginx-1.25.1/src/http/v2/ngx_http_v2.h
+nginx-1.25.1/src/http/v2/ngx_http_v2_encode.c
+nginx-1.25.1/src/http/v2/ngx_http_v2_filter_module.c
+nginx-1.25.1/src/http/v2/ngx_http_v2_module.c
+nginx-1.25.1/src/http/v2/ngx_http_v2_module.h
+nginx-1.25.1/src/http/v2/ngx_http_v2_table.c
+nginx-1.25.1/src/http/modules/ngx_http_access_module.c
+nginx-1.25.1/src/http/modules/ngx_http_addition_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_auth_basic_module.c
+nginx-1.25.1/src/http/modules/ngx_http_auth_request_module.c
+nginx-1.25.1/src/http/modules/ngx_http_autoindex_module.c
+nginx-1.25.1/src/http/modules/ngx_http_browser_module.c
+nginx-1.25.1/src/http/modules/ngx_http_charset_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_chunked_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_dav_module.c
+nginx-1.25.1/src/http/modules/ngx_http_degradation_module.c
+nginx-1.25.1/src/http/modules/ngx_http_empty_gif_module.c
+nginx-1.25.1/src/http/modules/ngx_http_fastcgi_module.c
+nginx-1.25.1/src/http/modules/perl/
+nginx-1.25.1/src/http/modules/ngx_http_flv_module.c
+nginx-1.25.1/src/http/modules/ngx_http_geo_module.c
+nginx-1.25.1/src/http/modules/ngx_http_geoip_module.c
+nginx-1.25.1/src/http/modules/ngx_http_grpc_module.c
+nginx-1.25.1/src/http/modules/ngx_http_gunzip_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_gzip_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_gzip_static_module.c
+nginx-1.25.1/src/http/modules/ngx_http_headers_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_image_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_index_module.c
+nginx-1.25.1/src/http/modules/ngx_http_limit_conn_module.c
+nginx-1.25.1/src/http/modules/ngx_http_limit_req_module.c
+nginx-1.25.1/src/http/modules/ngx_http_log_module.c
+nginx-1.25.1/src/http/modules/ngx_http_map_module.c
+nginx-1.25.1/src/http/modules/ngx_http_memcached_module.c
+nginx-1.25.1/src/http/modules/ngx_http_mirror_module.c
+nginx-1.25.1/src/http/modules/ngx_http_mp4_module.c
+nginx-1.25.1/src/http/modules/ngx_http_not_modified_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_proxy_module.c
+nginx-1.25.1/src/http/modules/ngx_http_random_index_module.c
+nginx-1.25.1/src/http/modules/ngx_http_range_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_realip_module.c
+nginx-1.25.1/src/http/modules/ngx_http_referer_module.c
+nginx-1.25.1/src/http/modules/ngx_http_rewrite_module.c
+nginx-1.25.1/src/http/modules/ngx_http_scgi_module.c
+nginx-1.25.1/src/http/modules/ngx_http_secure_link_module.c
+nginx-1.25.1/src/http/modules/ngx_http_slice_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_split_clients_module.c
+nginx-1.25.1/src/http/modules/ngx_http_ssi_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_ssi_filter_module.h
+nginx-1.25.1/src/http/modules/ngx_http_ssl_module.c
+nginx-1.25.1/src/http/modules/ngx_http_ssl_module.h
+nginx-1.25.1/src/http/modules/ngx_http_static_module.c
+nginx-1.25.1/src/http/modules/ngx_http_stub_status_module.c
+nginx-1.25.1/src/http/modules/ngx_http_sub_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_try_files_module.c
+nginx-1.25.1/src/http/modules/ngx_http_upstream_hash_module.c
+nginx-1.25.1/src/http/modules/ngx_http_upstream_ip_hash_module.c
+nginx-1.25.1/src/http/modules/ngx_http_upstream_keepalive_module.c
+nginx-1.25.1/src/http/modules/ngx_http_upstream_random_module.c
+nginx-1.25.1/src/http/modules/ngx_http_upstream_least_conn_module.c
+nginx-1.25.1/src/http/modules/ngx_http_upstream_zone_module.c
+nginx-1.25.1/src/http/modules/ngx_http_userid_filter_module.c
+nginx-1.25.1/src/http/modules/ngx_http_uwsgi_module.c
+nginx-1.25.1/src/http/modules/ngx_http_xslt_filter_module.c
+nginx-1.25.1/src/http/modules/perl/Makefile.PL
+nginx-1.25.1/src/http/modules/perl/nginx.pm
+nginx-1.25.1/src/http/modules/perl/nginx.xs
+nginx-1.25.1/src/http/modules/perl/ngx_http_perl_module.c
+nginx-1.25.1/src/http/modules/perl/ngx_http_perl_module.h
+nginx-1.25.1/src/http/modules/perl/typemap
+nginx-1.25.1/src/event/modules/
+nginx-1.25.1/src/event/ngx_event.c
+nginx-1.25.1/src/event/ngx_event.h
+nginx-1.25.1/src/event/ngx_event_accept.c
+nginx-1.25.1/src/event/ngx_event_acceptex.c
+nginx-1.25.1/src/event/ngx_event_connect.c
+nginx-1.25.1/src/event/ngx_event_connect.h
+nginx-1.25.1/src/event/ngx_event_connectex.c
+nginx-1.25.1/src/event/ngx_event_openssl.c
+nginx-1.25.1/src/event/ngx_event_openssl.h
+nginx-1.25.1/src/event/ngx_event_openssl_stapling.c
+nginx-1.25.1/src/event/ngx_event_pipe.c
+nginx-1.25.1/src/event/ngx_event_pipe.h
+nginx-1.25.1/src/event/ngx_event_posted.c
+nginx-1.25.1/src/event/ngx_event_posted.h
+nginx-1.25.1/src/event/ngx_event_timer.c
+nginx-1.25.1/src/event/ngx_event_timer.h
+nginx-1.25.1/src/event/quic/
+nginx-1.25.1/src/event/ngx_event_udp.c
+nginx-1.25.1/src/event/ngx_event_udp.h
+nginx-1.25.1/src/event/quic/bpf/
+nginx-1.25.1/src/event/quic/ngx_event_quic.c
+nginx-1.25.1/src/event/quic/ngx_event_quic.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_ack.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_ack.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_bpf.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_bpf_code.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_connection.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_connid.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_connid.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_frames.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_frames.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_migration.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_migration.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_openssl_compat.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_openssl_compat.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_output.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_output.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_protection.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_protection.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_socket.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_socket.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_ssl.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_ssl.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_streams.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_streams.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_tokens.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_tokens.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_transport.c
+nginx-1.25.1/src/event/quic/ngx_event_quic_transport.h
+nginx-1.25.1/src/event/quic/ngx_event_quic_udp.c
+nginx-1.25.1/src/event/quic/bpf/bpfgen.sh
+nginx-1.25.1/src/event/quic/bpf/makefile
+nginx-1.25.1/src/event/quic/bpf/ngx_quic_reuseport_helper.c
+nginx-1.25.1/src/event/modules/ngx_devpoll_module.c
+nginx-1.25.1/src/event/modules/ngx_epoll_module.c
+nginx-1.25.1/src/event/modules/ngx_eventport_module.c
+nginx-1.25.1/src/event/modules/ngx_iocp_module.c
+nginx-1.25.1/src/event/modules/ngx_iocp_module.h
+nginx-1.25.1/src/event/modules/ngx_kqueue_module.c
+nginx-1.25.1/src/event/modules/ngx_poll_module.c
+nginx-1.25.1/src/event/modules/ngx_select_module.c
+nginx-1.25.1/src/event/modules/ngx_win32_poll_module.c
+nginx-1.25.1/src/event/modules/ngx_win32_select_module.c
+nginx-1.25.1/src/core/nginx.c
+nginx-1.25.1/src/core/nginx.h
+nginx-1.25.1/src/core/ngx_array.c
+nginx-1.25.1/src/core/ngx_array.h
+nginx-1.25.1/src/core/ngx_bpf.c
+nginx-1.25.1/src/core/ngx_bpf.h
+nginx-1.25.1/src/core/ngx_buf.c
+nginx-1.25.1/src/core/ngx_buf.h
+nginx-1.25.1/src/core/ngx_conf_file.c
+nginx-1.25.1/src/core/ngx_conf_file.h
+nginx-1.25.1/src/core/ngx_config.h
+nginx-1.25.1/src/core/ngx_connection.c
+nginx-1.25.1/src/core/ngx_connection.h
+nginx-1.25.1/src/core/ngx_core.h
+100 1185k  100 1185k    0     0  1878k      0 --:--:-- --:--:-- --:--:-- 1881k
+nginx-1.25.1/src/core/ngx_cpuinfo.c
+nginx-1.25.1/src/core/ngx_crc.h
+nginx-1.25.1/src/core/ngx_crc32.c
+nginx-1.25.1/src/core/ngx_crc32.h
+nginx-1.25.1/src/core/ngx_crypt.c
+nginx-1.25.1/src/core/ngx_crypt.h
+nginx-1.25.1/src/core/ngx_cycle.c
+nginx-1.25.1/src/core/ngx_cycle.h
+nginx-1.25.1/src/core/ngx_file.c
+nginx-1.25.1/src/core/ngx_file.h
+nginx-1.25.1/src/core/ngx_hash.c
+nginx-1.25.1/src/core/ngx_hash.h
+nginx-1.25.1/src/core/ngx_inet.c
+nginx-1.25.1/src/core/ngx_inet.h
+nginx-1.25.1/src/core/ngx_list.c
+nginx-1.25.1/src/core/ngx_list.h
+nginx-1.25.1/src/core/ngx_log.c
+nginx-1.25.1/src/core/ngx_log.h
+nginx-1.25.1/src/core/ngx_md5.c
+nginx-1.25.1/src/core/ngx_md5.h
+nginx-1.25.1/src/core/ngx_module.c
+nginx-1.25.1/src/core/ngx_module.h
+nginx-1.25.1/src/core/ngx_murmurhash.c
+nginx-1.25.1/src/core/ngx_murmurhash.h
+nginx-1.25.1/src/core/ngx_open_file_cache.c
+nginx-1.25.1/src/core/ngx_open_file_cache.h
+nginx-1.25.1/src/core/ngx_output_chain.c
+nginx-1.25.1/src/core/ngx_palloc.c
+nginx-1.25.1/src/core/ngx_palloc.h
+nginx-1.25.1/src/core/ngx_parse.c
+nginx-1.25.1/src/core/ngx_parse.h
+nginx-1.25.1/src/core/ngx_parse_time.c
+nginx-1.25.1/src/core/ngx_parse_time.h
+nginx-1.25.1/src/core/ngx_proxy_protocol.c
+nginx-1.25.1/src/core/ngx_proxy_protocol.h
+nginx-1.25.1/src/core/ngx_queue.c
+nginx-1.25.1/src/core/ngx_queue.h
+nginx-1.25.1/src/core/ngx_radix_tree.c
+nginx-1.25.1/src/core/ngx_radix_tree.h
+nginx-1.25.1/src/core/ngx_rbtree.c
+nginx-1.25.1/src/core/ngx_rbtree.h
+nginx-1.25.1/src/core/ngx_regex.c
+nginx-1.25.1/src/core/ngx_regex.h
+nginx-1.25.1/src/core/ngx_resolver.c
+nginx-1.25.1/src/core/ngx_resolver.h
+nginx-1.25.1/src/core/ngx_rwlock.c
+nginx-1.25.1/src/core/ngx_rwlock.h
+nginx-1.25.1/src/core/ngx_sha1.c
+nginx-1.25.1/src/core/ngx_sha1.h
+nginx-1.25.1/src/core/ngx_shmtx.c
+nginx-1.25.1/src/core/ngx_shmtx.h
+nginx-1.25.1/src/core/ngx_slab.c
+nginx-1.25.1/src/core/ngx_slab.h
+nginx-1.25.1/src/core/ngx_spinlock.c
+nginx-1.25.1/src/core/ngx_string.c
+nginx-1.25.1/src/core/ngx_string.h
+nginx-1.25.1/src/core/ngx_syslog.c
+nginx-1.25.1/src/core/ngx_syslog.h
+nginx-1.25.1/src/core/ngx_thread_pool.c
+nginx-1.25.1/src/core/ngx_thread_pool.h
+nginx-1.25.1/src/core/ngx_times.c
+nginx-1.25.1/src/core/ngx_times.h
+nginx-1.25.1/contrib/README
+nginx-1.25.1/contrib/geo2nginx.pl
+nginx-1.25.1/contrib/unicode2nginx/
+nginx-1.25.1/contrib/vim/
+nginx-1.25.1/contrib/vim/ftdetect/
+nginx-1.25.1/contrib/vim/ftplugin/
+nginx-1.25.1/contrib/vim/indent/
+nginx-1.25.1/contrib/vim/syntax/
+nginx-1.25.1/contrib/vim/syntax/nginx.vim
+nginx-1.25.1/contrib/vim/indent/nginx.vim
+nginx-1.25.1/contrib/vim/ftplugin/nginx.vim
+nginx-1.25.1/contrib/vim/ftdetect/nginx.vim
+nginx-1.25.1/contrib/unicode2nginx/koi-utf
+nginx-1.25.1/contrib/unicode2nginx/unicode-to-nginx.pl
+nginx-1.25.1/contrib/unicode2nginx/win-utf
+nginx-1.25.1/conf/fastcgi.conf
+nginx-1.25.1/conf/fastcgi_params
+nginx-1.25.1/conf/koi-utf
+nginx-1.25.1/conf/koi-win
+nginx-1.25.1/conf/mime.types
+nginx-1.25.1/conf/nginx.conf
+nginx-1.25.1/conf/scgi_params
+nginx-1.25.1/conf/uwsgi_params
+nginx-1.25.1/conf/win-utf
+nginx-1.25.1/auto/cc/
+nginx-1.25.1/auto/define
+nginx-1.25.1/auto/endianness
+nginx-1.25.1/auto/feature
+nginx-1.25.1/auto/have
+nginx-1.25.1/auto/have_headers
+nginx-1.25.1/auto/headers
+nginx-1.25.1/auto/include
+nginx-1.25.1/auto/init
+nginx-1.25.1/auto/install
+nginx-1.25.1/auto/lib/
+nginx-1.25.1/auto/make
+nginx-1.25.1/auto/module
+nginx-1.25.1/auto/modules
+nginx-1.25.1/auto/nohave
+nginx-1.25.1/auto/options
+nginx-1.25.1/auto/os/
+nginx-1.25.1/auto/sources
+nginx-1.25.1/auto/stubs
+nginx-1.25.1/auto/summary
+nginx-1.25.1/auto/threads
+nginx-1.25.1/auto/types/
+nginx-1.25.1/auto/unix
+nginx-1.25.1/auto/types/sizeof
+nginx-1.25.1/auto/types/typedef
+nginx-1.25.1/auto/types/uintptr_t
+nginx-1.25.1/auto/types/value
+nginx-1.25.1/auto/os/conf
+nginx-1.25.1/auto/os/darwin
+nginx-1.25.1/auto/os/freebsd
+nginx-1.25.1/auto/os/linux
+nginx-1.25.1/auto/os/solaris
+nginx-1.25.1/auto/os/win32
+nginx-1.25.1/auto/lib/conf
+nginx-1.25.1/auto/lib/geoip/
+nginx-1.25.1/auto/lib/google-perftools/
+nginx-1.25.1/auto/lib/libatomic/
+nginx-1.25.1/auto/lib/libgd/
+nginx-1.25.1/auto/lib/libxslt/
+nginx-1.25.1/auto/lib/make
+nginx-1.25.1/auto/lib/openssl/
+nginx-1.25.1/auto/lib/pcre/
+nginx-1.25.1/auto/lib/perl/
+nginx-1.25.1/auto/lib/zlib/
+nginx-1.25.1/auto/lib/zlib/conf
+nginx-1.25.1/auto/lib/zlib/make
+nginx-1.25.1/auto/lib/zlib/makefile.bcc
+nginx-1.25.1/auto/lib/zlib/makefile.msvc
+nginx-1.25.1/auto/lib/zlib/makefile.owc
+nginx-1.25.1/auto/lib/perl/conf
+nginx-1.25.1/auto/lib/perl/make
+nginx-1.25.1/auto/lib/pcre/conf
+nginx-1.25.1/auto/lib/pcre/make
+nginx-1.25.1/auto/lib/pcre/makefile.bcc
+nginx-1.25.1/auto/lib/pcre/makefile.msvc
+nginx-1.25.1/auto/lib/pcre/makefile.owc
+nginx-1.25.1/auto/lib/openssl/conf
+nginx-1.25.1/auto/lib/openssl/make
+nginx-1.25.1/auto/lib/openssl/makefile.bcc
+nginx-1.25.1/auto/lib/openssl/makefile.msvc
+nginx-1.25.1/auto/lib/libxslt/conf
+nginx-1.25.1/auto/lib/libgd/conf
+nginx-1.25.1/auto/lib/libatomic/conf
+nginx-1.25.1/auto/lib/libatomic/make
+nginx-1.25.1/auto/lib/google-perftools/conf
+nginx-1.25.1/auto/lib/geoip/conf
+nginx-1.25.1/auto/cc/acc
+nginx-1.25.1/auto/cc/bcc
+nginx-1.25.1/auto/cc/ccc
+nginx-1.25.1/auto/cc/clang
+nginx-1.25.1/auto/cc/conf
+nginx-1.25.1/auto/cc/gcc
+nginx-1.25.1/auto/cc/icc
+nginx-1.25.1/auto/cc/msvc
+nginx-1.25.1/auto/cc/name
+nginx-1.25.1/auto/cc/owc
+nginx-1.25.1/auto/cc/sunc
+Downloading https://ftp.exim.org/pub/pcre/pcre-8.45.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0pcre-8.45/
+pcre-8.45/pcre_scanner.h
+pcre-8.45/LICENCE
+pcre-8.45/makevp_c.txt
+pcre-8.45/PrepareRelease
+pcre-8.45/RunTest.bat
+pcre-8.45/pcre16_study.c
+pcre-8.45/pcre16_chartables.c
+pcre-8.45/pcre_jit_test.c
+pcre-8.45/pcregexp.pas
+pcre-8.45/pcre32_chartables.c
+pcre-8.45/pcre_get.c
+pcre-8.45/132html
+pcre-8.45/pcre16_compile.c
+pcre-8.45/pcre32_dfa_exec.c
+pcre-8.45/pcre32_utf32_utils.c
+pcre-8.45/CMakeLists.txt
+pcre-8.45/Makefile.am
+pcre-8.45/pcre_stringpiece_unittest.cc
+pcre-8.45/pcre16_dfa_exec.c
+pcre-8.45/pcre16_newline.c
+pcre-8.45/pcre16_ord2utf16.c
+pcre-8.45/compile
+pcre-8.45/pcre16_config.c
+pcre-8.45/depcomp
+pcre-8.45/config.sub
+pcre-8.45/pcre32_maketables.c
+pcre-8.45/pcre16_maketables.c
+pcre-8.45/pcre16_byte_order.c
+pcre-8.45/pcrecpp.cc
+pcre-8.45/Makefile.in
+pcre-8.45/README
+pcre-8.45/cmake/
+pcre-8.45/cmake/FindReadline.cmake
+pcre-8.45/cmake/FindEditline.cmake
+pcre-8.45/cmake/FindPackageHandleStandardArgs.cmake
+pcre-8.45/cmake/COPYING-CMAKE-SCRIPTS
+pcre-8.45/pcre16_utf16_utils.c
+pcre-8.45/aclocal.m4
+pcre-8.45/pcre32_xclass.c
+pcre-8.45/ucp.h
+pcre-8.45/pcre_printint.c
+pcre-8.45/pcre32_compile.c
+pcre-8.45/pcre_jit_compile.c
+pcre-8.45/dftables.c
+pcre-8.45/config.guess
+pcre-8.45/pcre_newline.c
+pcre-8.45/configure
+pcre-8.45/pcrecpparg.h.in
+pcre-8.45/perltest.pl
+pcre-8.45/pcre16_jit_compile.c
+pcre-8.45/pcre32_exec.c
+pcre-8.45/pcre32_study.c
+pcre-8.45/pcreposix.h
+pcre-8.45/CleanTxt
+pcre-8.45/pcreposix.c
+pcre-8.45/pcre_string_utils.c
+pcre-8.45/pcre32_newline.c
+pcre-8.45/install-sh
+pcre-8.45/pcre16_xclass.c
+pcre-8.45/libpcre16.pc.in
+pcre-8.45/pcre16_get.c
+pcre-8.45/pcrecpp_internal.h
+pcre-8.45/pcre_study.c
+pcre-8.45/pcre_compile.c
+pcre-8.45/pcre_fullinfo.c
+pcre-8.45/pcre_refcount.c
+pcre-8.45/pcre16_globals.c
+pcre-8.45/m4/
+pcre-8.45/m4/ltsugar.m4
+pcre-8.45/m4/libtool.m4
+pcre-8.45/m4/ltversion.m4
+pcre-8.45/m4/ltoptions.m4
+pcre-8.45/m4/ax_pthread.m4
+pcre-8.45/m4/lt~obsolete.m4
+pcre-8.45/m4/pcre_visibility.m4
+pcre-8.45/libpcreposix.pc.in
+pcre-8.45/COPYING
+pcre-8.45/pcrecpp.h
+pcre-8.45/INSTALL
+pcre-8.45/pcre32_fullinfo.c
+pcre-8.45/pcre32_get.c
+pcre-8.45/pcre32_tables.c
+pcre-8.45/libpcre32.pc.in
+pcre-8.45/pcre32_valid_utf32.c
+pcre-8.45/pcre_ord2utf8.c
+pcre-8.45/makevp.bat
+pcre-8.45/ChangeLog
+pcre-8.45/pcre32_string_utils.c
+pcre-8.45/pcre-config.in
+pcre-8.45/pcre_exec.c
+pcre-8.45/pcre16_refcount.c
+pcre-8.45/HACKING
+pcre-8.45/test-driver
+pcre-8.45/missing
+pcre-8.45/pcre16_string_utils.c
+pcre-8.45/configure.ac
+pcre-8.45/pcre_scanner.cc
+pcre-8.45/pcre_stringpiece.h.in
+pcre-8.45/ar-lib
+pcre-8.45/pcre_valid_utf8.c
+pcre-8.45/sljit/
+pcre-8.45/sljit/sljitNativeSPARC_common.c
+pcre-8.45/sljit/sljitNativeTILEGX-encoder.c
+pcre-8.45/sljit/sljitConfig.h
+pcre-8.45/sljit/sljitNativeMIPS_64.c
+pcre-8.45/sljit/sljitUtils.c
+pcre-8.45/sljit/sljitNativeARM_T2_32.c
+pcre-8.45/sljit/sljitNativePPC_64.c
+pcre-8.45/sljit/sljitNativeARM_64.c
+pcre-8.45/sljit/sljitNativeMIPS_common.c
+pcre-8.45/sljit/sljitNativeMIPS_32.c
+pcre-8.45/sljit/sljitNativeX86_common.c
+pcre-8.45/sljit/sljitNativeTILEGX_64.c
+pcre-8.45/sljit/sljitNativeARM_32.c
+pcre-8.45/sljit/sljitNativeSPARC_32.c
+pcre-8.45/sljit/sljitLir.c
+pcre-8.45/sljit/sljitLir.h
+pcre-8.45/sljit/sljitNativeX86_32.c
+pcre-8.45/sljit/sljitNativePPC_32.c
+pcre-8.45/sljit/sljitExecAllocator.c
+pcre-8.45/sljit/sljitNativeX86_64.c
+pcre-8.45/sljit/sljitNativePPC_common.c
+pcre-8.45/sljit/sljitConfigInternal.h
+pcre-8.45/pcre16_tables.c
+pcre-8.45/pcre32_byte_order.c
+pcre-8.45/config-cmake.h.in
+pcre-8.45/pcretest.c
+pcre-8.45/testdata/
+pcre-8.45/testdata/saved32LE-1
+pcre-8.45/testdata/testoutput24
+pcre-8.45/testdata/testoutput2
+pcre-8.45/testdata/testoutputEBC
+pcre-8.45/testdata/greplist
+pcre-8.45/testdata/testinput21
+pcre-8.45/testdata/testinput25
+pcre-8.45/testdata/testoutput3A
+pcre-8.45/testdata/testoutput26
+pcre-8.45/testdata/testoutput20
+pcre-8.45/testdata/grepoutput8
+pcre-8.45/testdata/testoutput16
+pcre-8.45/testdata/testinput17
+pcre-8.45/testdata/testoutput23
+pcre-8.45/testdata/testoutput4
+pcre-8.45/testdata/testoutput11-8
+pcre-8.45/testdata/testinput8
+pcre-8.45/testdata/testinput26
+pcre-8.45/testdata/testoutput7
+pcre-8.45/testdata/grepinput3
+pcre-8.45/testdata/testoutput22-32
+pcre-8.45/testdata/testinput13
+pcre-8.45/testdata/testoutput12
+pcre-8.45/testdata/saved32
+pcre-8.45/testdata/testinput15
+pcre-8.45/testdata/wintestoutput3
+pcre-8.45/testdata/testinput10
+pcre-8.45/testdata/testinput1
+pcre-8.45/testdata/testoutput5
+pcre-8.45/testdata/saved16
+pcre-8.45/testdata/grepoutputN
+pcre-8.45/testdata/testinput24
+pcre-8.45/testdata/testoutput9
+pcre-8.45/testdata/testoutput14
+pcre-8.45/testdata/testoutput10
+pcre-8.45/testdata/testinput16
+pcre-8.45/testdata/testoutput21-32
+pcre-8.45/testdata/testoutput25
+pcre-8.45/testdata/testoutput3B
+pcre-8.45/testdata/testoutput15
+pcre-8.45/testdata/testoutput13
+pcre-8.45/testdata/testoutput18-32
+pcre-8.45/testdata/grepbinary
+pcre-8.45/testdata/grepinputx
+pcre-8.45/testdata/testoutput18-16
+pcre-8.45/testdata/greppatN4
+pcre-8.45/testdata/testinput5
+pcre-8.45/testdata/testoutput19
+pcre-8.45/testdata/testoutput6
+pcre-8.45/testdata/testinput3
+pcre-8.45/testdata/testinput23
+pcre-8.45/testdata/testinput7
+pcre-8.45/testdata/testinput18
+pcre-8.45/testdata/saved32BE-1
+pcre-8.45/testdata/saved32BE-2
+pcre-8.45/testdata/testoutput3
+pcre-8.45/testdata/testinput22
+pcre-8.45/testdata/saved16BE-2
+pcre-8.45/testdata/testinput9
+pcre-8.45/testdata/saved8
+pcre-8.45/testdata/testinput20
+pcre-8.45/testdata/testinput6
+pcre-8.45/testdata/saved16LE-1
+pcre-8.45/testdata/saved16LE-2
+pcre-8.45/testdata/testoutput8
+pcre-8.45/testdata/valgrind-jit.supp
+pcre-8.45/testdata/testinput12
+pcre-8.45/testdata/grepinput8
+pcre-8.45/testdata/grepfilelist
+pcre-8.45/testdata/testinput2
+pcre-8.45/testdata/grepinputv
+pcre-8.45/testdata/grepoutput
+pcre-8.45/testdata/saved16BE-1
+pcre-8.45/testdata/testinput11
+pcre-8.45/testdata/testinput4
+pcre-8.45/testdata/saved32LE-2
+pcre-8.45/testdata/grepinput
+pcre-8.45/testdata/testoutput21-16
+pcre-8.45/testdata/wintestinput3
+pcre-8.45/testdata/testinputEBC
+pcre-8.45/testdata/testinput14
+pcre-8.45/testdata/testoutput22-16
+pcre-8.45/testdata/testoutput11-32
+pcre-8.45/testdata/testoutput1
+pcre-8.45/testdata/testinput19
+pcre-8.45/testdata/testoutput11-16
+pcre-8.45/testdata/testoutput17
+pcre-8.45/pcre32_config.c
+pcre-8.45/RunTest
+pcre-8.45/pcregrep.c
+pcre-8.45/pcrecpp_unittest.cc
+pcre-8.45/pcre_dfa_exec.c
+pcre-8.45/pcre_globals.c
+pcre-8.45/pcre32_ord2utf32.c
+pcre-8.45/pcre_xclass.c
+pcre-8.45/config.h.in
+pcre-8.45/pcre_internal.h
+pcre-8.45/pcre32_refcount.c
+pcre-8.45/pcre16_ucd.c
+pcre-8.45/pcre32_jit_compile.c
+pcre-8.45/pcre_ucd.c
+pcre-8.45/AUTHORS
+pcre-8.45/Detrail
+pcre-8.45/pcre16_version.c
+pcre-8.45/NON-AUTOTOOLS-BUILD
+pcre-8.45/ltmain.sh
+pcre-8.45/pcre_scanner_unittest.cc
+pcre-8.45/pcre32_printint.c
+pcre-8.45/pcre16_printint.c
+pcre-8.45/NEWS
+pcre-8.45/pcre32_version.c
+pcre-8.45/pcre.h.in
+pcre-8.45/libpcrecpp.pc.in
+pcre-8.45/pcre_chartables.c.dist
+pcre-8.45/pcre.h.generic
+pcre-8.45/doc/
+pcre-8.45/doc/pcre.txt
+pcre-8.45/doc/pcre_fullinfo.3
+pcre-8.45/doc/pcre_jit_exec.3
+pcre-8.45/doc/pcre_version.3
+pcre-8.45/doc/pcre_assign_jit_stack.3
+pcre-8.45/doc/pcre_compile2.3
+pcre-8.45/doc/pcretest.txt
+pcre-8.45/doc/pcre-config.txt
+pcre-8.45/doc/pcre_get_substring_list.3
+pcre-8.45/doc/pcrematching.3
+pcre-8.45/doc/pcre_copy_named_substring.3
+pcre-8.45/doc/pcresample.3
+pcre-8.45/doc/pcre_free_substring_list.3
+pcre-8.45/doc/pcreprecompile.3
+pcre-8.45/doc/pcre_utf32_to_host_byte_order.3
+pcre-8.45/doc/pcre_config.3
+pcre-8.45/doc/pcresyntax.3
+pcre-8.45/doc/pcreapi.3
+pcre-8.45/doc/pcre_pattern_to_host_byte_order.3
+pcre-8.45/doc/pcrecallout.3
+pcre-8.45/doc/pcregrep.1
+pcre-8.45/doc/html/
+pcre-8.45/doc/html/pcre_maketables.html
+pcre-8.45/doc/html/pcre-config.html
+pcre-8.45/doc/html/pcre_get_stringtable_entries.html
+pcre-8.45/doc/html/index.html
+pcre-8.45/doc/html/pcre_pattern_to_host_byte_order.html
+pcre-8.45/doc/html/pcreperform.html
+pcre-8.45/doc/html/pcre_get_substring_list.html
+pcre-8.45/doc/html/pcreposix.html
+pcre-8.45/doc/html/pcre_free_study.html
+pcre-8.45/doc/html/pcrecpp.html
+pcre-8.45/doc/html/pcrecompat.html
+pcre-8.45/doc/html/pcre_compile.html
+pcre-8.45/doc/html/pcre_config.html
+pcre-8.45/doc/html/pcre_get_named_substring.html
+pcre-8.45/doc/html/pcretest.html
+pcre-8.45/doc/html/pcre_compile2.html
+pcre-8.45/doc/html/pcre_version.html
+pcre-8.45/doc/html/pcrestack.html
+pcre-8.45/doc/html/pcre_copy_named_substring.html
+pcre-8.45/doc/html/pcre_utf32_to_host_byte_order.html
+pcre-8.45/doc/html/pcre16.html
+pcre-8.45/doc/html/pcre_jit_stack_alloc.html
+pcre-8.45/doc/html/pcre_utf16_to_host_byte_order.html
+pcre-8.45/doc/html/pcre_jit_stack_free.html
+pcre-8.45/doc/html/pcrecallout.html
+pcre-8.45/doc/html/pcre.html
+pcre-8.45/doc/html/pcre_refcount.html
+pcre-8.45/doc/html/pcrepattern.html
+pcre-8.45/doc/html/pcreprecompile.html
+pcre-8.45/doc/html/pcre_get_stringnumber.html
+pcre-8.45/doc/html/pcresample.html
+pcre-8.45/doc/html/pcre_exec.html
+pcre-8.45/doc/html/pcre_assign_jit_stack.html
+pcre-8.45/doc/html/README.txt
+100 2047k  100 2047k    0     0  3047k      0 --:--:-- --:--:-- --:--:-- 3046k
+pcre-8.45/doc/html/pcre_copy_substring.html
+pcre-8.45/doc/html/pcre_get_substring.html
+pcre-8.45/doc/html/pcrejit.html
+pcre-8.45/doc/html/pcreunicode.html
+pcre-8.45/doc/html/pcrelimits.html
+pcre-8.45/doc/html/pcre_fullinfo.html
+pcre-8.45/doc/html/NON-AUTOTOOLS-BUILD.txt
+pcre-8.45/doc/html/pcrebuild.html
+pcre-8.45/doc/html/pcreapi.html
+pcre-8.45/doc/html/pcre_study.html
+pcre-8.45/doc/html/pcre_jit_exec.html
+pcre-8.45/doc/html/pcrepartial.html
+pcre-8.45/doc/html/pcregrep.html
+pcre-8.45/doc/html/pcresyntax.html
+pcre-8.45/doc/html/pcre_free_substring.html
+pcre-8.45/doc/html/pcre_free_substring_list.html
+pcre-8.45/doc/html/pcre32.html
+pcre-8.45/doc/html/pcredemo.html
+pcre-8.45/doc/html/pcre_dfa_exec.html
+pcre-8.45/doc/html/pcrematching.html
+pcre-8.45/doc/pcreperform.3
+pcre-8.45/doc/pcre_compile.3
+pcre-8.45/doc/pcre_get_stringnumber.3
+pcre-8.45/doc/index.html.src
+pcre-8.45/doc/pcre_free_substring.3
+pcre-8.45/doc/pcre_maketables.3
+pcre-8.45/doc/pcre_jit_stack_free.3
+pcre-8.45/doc/pcre_get_substring.3
+pcre-8.45/doc/pcre16.3
+pcre-8.45/doc/pcre32.3
+pcre-8.45/doc/pcre_get_named_substring.3
+pcre-8.45/doc/pcre_exec.3
+pcre-8.45/doc/pcre_get_stringtable_entries.3
+pcre-8.45/doc/pcre.3
+pcre-8.45/doc/pcre-config.1
+pcre-8.45/doc/pcrecompat.3
+pcre-8.45/doc/pcrestack.3
+pcre-8.45/doc/pcre_dfa_exec.3
+pcre-8.45/doc/perltest.txt
+pcre-8.45/doc/pcreunicode.3
+pcre-8.45/doc/pcre_study.3
+pcre-8.45/doc/pcreposix.3
+pcre-8.45/doc/pcrepartial.3
+pcre-8.45/doc/pcrelimits.3
+pcre-8.45/doc/pcredemo.3
+pcre-8.45/doc/pcretest.1
+pcre-8.45/doc/pcre_refcount.3
+pcre-8.45/doc/pcrepattern.3
+pcre-8.45/doc/pcre_utf16_to_host_byte_order.3
+pcre-8.45/doc/pcrejit.3
+pcre-8.45/doc/pcrecpp.3
+pcre-8.45/doc/pcre_jit_stack_alloc.3
+pcre-8.45/doc/pcrebuild.3
+pcre-8.45/doc/pcre_free_study.3
+pcre-8.45/doc/pcregrep.txt
+pcre-8.45/doc/pcre_copy_substring.3
+pcre-8.45/NON-UNIX-USE
+pcre-8.45/pcre_byte_order.c
+pcre-8.45/pcredemo.c
+pcre-8.45/libpcre.pc.in
+pcre-8.45/pcre16_fullinfo.c
+pcre-8.45/RunGrepTest
+pcre-8.45/pcre16_exec.c
+pcre-8.45/pcre_maketables.c
+pcre-8.45/pcre_tables.c
+pcre-8.45/config.h.generic
+pcre-8.45/pcre_stringpiece.cc
+pcre-8.45/pcre_version.c
+pcre-8.45/CheckMan
+pcre-8.45/pcre32_globals.c
+pcre-8.45/pcre_config.c
+pcre-8.45/pcre16_valid_utf16.c
+pcre-8.45/pcre32_ucd.c
+pcre-8.45/makevp_l.txt
+Downloading https://github.com/openresty/headers-more-nginx-module/archive/v0.34.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 28827  100 28827    0     0  34240      0 --:--:-- --:--:-- --:--:-- 34240
+headers-more-nginx-module-0.34/
+headers-more-nginx-module-0.34/.gitattributes
+headers-more-nginx-module-0.34/.gitignore
+headers-more-nginx-module-0.34/.travis.yml
+headers-more-nginx-module-0.34/README.markdown
+headers-more-nginx-module-0.34/config
+headers-more-nginx-module-0.34/src/
+headers-more-nginx-module-0.34/src/ddebug.h
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_filter_module.c
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_filter_module.h
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_headers_in.c
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_headers_in.h
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_headers_out.c
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_headers_out.h
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_util.c
+headers-more-nginx-module-0.34/src/ngx_http_headers_more_util.h
+headers-more-nginx-module-0.34/t/
+headers-more-nginx-module-0.34/t/bug.t
+headers-more-nginx-module-0.34/t/builtin.t
+headers-more-nginx-module-0.34/t/eval.t
+headers-more-nginx-module-0.34/t/input-conn.t
+headers-more-nginx-module-0.34/t/input-cookie.t
+headers-more-nginx-module-0.34/t/input-ua.t
+headers-more-nginx-module-0.34/t/input.t
+headers-more-nginx-module-0.34/t/phase.t
+headers-more-nginx-module-0.34/t/sanity.t
+headers-more-nginx-module-0.34/t/subrequest.t
+headers-more-nginx-module-0.34/t/unused.t
+headers-more-nginx-module-0.34/t/vars.t
+headers-more-nginx-module-0.34/util/
+headers-more-nginx-module-0.34/util/build.sh
+headers-more-nginx-module-0.34/valgrind.suppress
+Downloading http://zlib.net/zlib-1.2.13.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0 1462k    0  2274    0     0   1176      0  0:21:13  0:00:01  0:21:12  1176zlib-1.2.13/
+zlib-1.2.13/zutil.h
+zlib-1.2.13/inftrees.h
+zlib-1.2.13/inflate.c
+zlib-1.2.13/CMakeLists.txt
+zlib-1.2.13/zlib.map
+zlib-1.2.13/zlib.pc.cmakein
+zlib-1.2.13/LICENSE
+zlib-1.2.13/zlib.3.pdf
+zlib-1.2.13/test/
+zlib-1.2.13/test/infcover.c
+zlib-1.2.13/test/example.c
+zlib-1.2.13/test/minigzip.c
+zlib-1.2.13/configure
+zlib-1.2.13/compress.c
+zlib-1.2.13/zlib.3
+zlib-1.2.13/ChangeLog
+zlib-1.2.13/deflate.c
+zlib-1.2.13/qnx/
+zlib-1.2.13/qnx/package.qpg
+zlib-1.2.13/msdos/
+zlib-1.2.13/msdos/Makefile.bor
+zlib-1.2.13/msdos/Makefile.msc
+zlib-1.2.13/msdos/Makefile.emx
+zlib-1.2.13/msdos/Makefile.dj2
+zlib-1.2.13/msdos/Makefile.tc
+zlib-1.2.13/inffixed.h
+zlib-1.2.13/Makefile
+zlib-1.2.13/FAQ
+zlib-1.2.13/gzread.c
+zlib-1.2.13/os400/
+zlib-1.2.13/os400/README400
+zlib-1.2.13/os400/make.sh
+zlib-1.2.13/os400/bndsrc
+zlib-1.2.13/os400/zlib.inc
+zlib-1.2.13/zconf.h.in
+zlib-1.2.13/trees.h
+zlib-1.2.13/zconf.h.cmakein
+zlib-1.2.13/inffast.h
+zlib-1.2.13/old/
+zlib-1.2.13/old/Makefile.riscos
+zlib-1.2.13/old/os2/
+zlib-1.2.13/old/os2/Makefile.os2
+zlib-1.2.13/old/os2/zlib.def
+zlib-1.2.13/old/Makefile.emx
+zlib-1.2.13/old/README
+zlib-1.2.13/old/descrip.mms
+zlib-1.2.13/old/visual-basic.txt
+zlib-1.2.13/treebuild.xml
+zlib-1.2.13/contrib/
+zlib-1.2.13/contrib/ada/
+zlib-1.2.13/contrib/ada/buffer_demo.adb
+zlib-1.2.13/contrib/ada/zlib-streams.ads
+zlib-1.2.13/contrib/ada/zlib-thin.ads
+zlib-1.2.13/contrib/ada/zlib.adb
+zlib-1.2.13/contrib/ada/read.adb
+zlib-1.2.13/contrib/ada/mtest.adb
+zlib-1.2.13/contrib/ada/test.adb
+zlib-1.2.13/contrib/ada/zlib.gpr
+zlib-1.2.13/contrib/ada/zlib-thin.adb
+zlib-1.2.13/contrib/ada/zlib-streams.adb
+zlib-1.2.13/contrib/ada/zlib.ads
+zlib-1.2.13/contrib/ada/readme.txt
+zlib-1.2.13/contrib/pascal/
+zlib-1.2.13/contrib/pascal/example.pas
+zlib-1.2.13/contrib/pascal/zlibpas.pas
+zlib-1.2.13/contrib/pascal/readme.txt
+zlib-1.2.13/contrib/pascal/zlibd32.mak
+zlib-1.2.13/contrib/dotzlib/
+zlib-1.2.13/contrib/dotzlib/DotZLib.build
+zlib-1.2.13/contrib/dotzlib/DotZLib/
+zlib-1.2.13/contrib/dotzlib/DotZLib/GZipStream.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/CodecBase.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/CircularBuffer.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/UnitTests.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/DotZLib.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/DotZLib.csproj
+zlib-1.2.13/contrib/dotzlib/DotZLib/Deflater.cs
+zlib-1.2.13/contrib/dotzlib/DotZLib/Inflater.cs
+zlib-1.2.13/contrib/dotzlib/LICENSE_1_0.txt
+zlib-1.2.13/contrib/dotzlib/DotZLib.chm
+zlib-1.2.13/contrib/dotzlib/readme.txt
+zlib-1.2.13/contrib/dotzlib/DotZLib.sln
+zlib-1.2.13/contrib/vstudio/
+zlib-1.2.13/contrib/vstudio/vc14/
+zlib-1.2.13/contrib/vstudio/vc14/zlibvc.vcxproj
+zlib-1.2.13/contrib/vstudio/vc14/miniunz.vcxproj
+zlib-1.2.13/contrib/vstudio/vc14/testzlibdll.vcxproj
+zlib-1.2.13/contrib/vstudio/vc14/zlibvc.sln
+zlib-1.2.13/contrib/vstudio/vc14/testzlib.vcxproj
+zlib-1.2.13/contrib/vstudio/vc14/zlib.rc
+zlib-1.2.13/contrib/vstudio/vc14/zlibstat.vcxproj
+zlib-1.2.13/contrib/vstudio/vc14/zlibvc.def
+zlib-1.2.13/contrib/vstudio/vc14/minizip.vcxproj
+zlib-1.2.13/contrib/vstudio/vc12/
+zlib-1.2.13/contrib/vstudio/vc12/zlibvc.vcxproj
+zlib-1.2.13/contrib/vstudio/vc12/miniunz.vcxproj
+zlib-1.2.13/contrib/vstudio/vc12/testzlibdll.vcxproj
+zlib-1.2.13/contrib/vstudio/vc12/zlibvc.sln
+zlib-1.2.13/contrib/vstudio/vc12/testzlib.vcxproj
+zlib-1.2.13/contrib/vstudio/vc12/zlib.rc
+zlib-1.2.13/contrib/vstudio/vc12/zlibstat.vcxproj
+zlib-1.2.13/contrib/vstudio/vc12/zlibvc.def
+zlib-1.2.13/contrib/vstudio/vc12/minizip.vcxproj
+zlib-1.2.13/contrib/vstudio/vc10/
+zlib-1.2.13/contrib/vstudio/vc10/zlibvc.vcxproj
+zlib-1.2.13/contrib/vstudio/vc10/testzlibdll.vcxproj.filters
+zlib-1.2.13/contrib/vstudio/vc10/testzlib.vcxproj.filters
+zlib-1.2.13/contrib/vstudio/vc10/zlibvc.vcxproj.filters
+zlib-1.2.13/contrib/vstudio/vc10/miniunz.vcxproj
+zlib-1.2.13/contrib/vstudio/vc10/testzlibdll.vcxproj
+zlib-1.2.13/contrib/vstudio/vc10/zlibvc.sln
+zlib-1.2.13/contrib/vstudio/vc10/minizip.vcxproj.filters
+zlib-1.2.13/contrib/vstudio/vc10/testzlib.vcxproj
+zlib-1.2.13/contrib/vstudio/vc10/zlibstat.vcxproj.filters
+zlib-1.2.13/contrib/vstudio/vc10/zlib.rc
+zlib-1.2.13/contrib/vstudio/vc10/zlibstat.vcxproj
+zlib-1.2.13/contrib/vstudio/vc10/zlibvc.def
+zlib-1.2.13/contrib/vstudio/vc10/miniunz.vcxproj.filters
+zlib-1.2.13/contrib/vstudio/vc10/minizip.vcxproj
+zlib-1.2.13/contrib/vstudio/vc9/
+zlib-1.2.13/contrib/vstudio/vc9/zlibvc.sln
+zlib-1.2.13/contrib/vstudio/vc9/zlibvc.vcproj
+zlib-1.2.13/contrib/vstudio/vc9/minizip.vcproj
+zlib-1.2.13/contrib/vstudio/vc9/miniunz.vcproj
+zlib-1.2.13/contrib/vstudio/vc9/zlib.rc
+zlib-1.2.13/contrib/vstudio/vc9/testzlibdll.vcproj
+zlib-1.2.13/contrib/vstudio/vc9/zlibvc.def
+zlib-1.2.13/contrib/vstudio/vc9/testzlib.vcproj
+zlib-1.2.13/contrib/vstudio/vc9/zlibstat.vcproj
+zlib-1.2.13/contrib/vstudio/vc11/
+zlib-1.2.13/contrib/vstudio/vc11/zlibvc.vcxproj
+zlib-1.2.13/contrib/vstudio/vc11/miniunz.vcxproj
+zlib-1.2.13/contrib/vstudio/vc11/testzlibdll.vcxproj
+zlib-1.2.13/contrib/vstudio/vc11/zlibvc.sln
+zlib-1.2.13/contrib/vstudio/vc11/testzlib.vcxproj
+zlib-1.2.13/contrib/vstudio/vc11/zlib.rc
+zlib-1.2.13/contrib/vstudio/vc11/zlibstat.vcxproj
+zlib-1.2.13/contrib/vstudio/vc11/zlibvc.def
+zlib-1.2.13/contrib/vstudio/vc11/minizip.vcxproj
+zlib-1.2.13/contrib/vstudio/readme.txt
+zlib-1.2.13/contrib/minizip/
+zlib-1.2.13/contrib/minizip/configure.ac
+zlib-1.2.13/contrib/minizip/MiniZip64_Changes.txt
+zlib-1.2.13/contrib/minizip/unzip.c
+zlib-1.2.13/contrib/minizip/zip.c
+zlib-1.2.13/contrib/minizip/iowin32.h
+zlib-1.2.13/contrib/minizip/Makefile
+zlib-1.2.13/contrib/minizip/ioapi.c
+zlib-1.2.13/contrib/minizip/mztools.c
+zlib-1.2.13/contrib/minizip/MiniZip64_info.txt
+zlib-1.2.13/contrib/minizip/minizip.pc.in
+zlib-1.2.13/contrib/minizip/minizip.1
+zlib-1.2.13/contrib/minizip/Makefile.am
+zlib-1.2.13/contrib/minizip/crypt.h
+zlib-1.2.13/contrib/minizip/zip.h
+zlib-1.2.13/contrib/minizip/make_vms.com
+zlib-1.2.13/contrib/minizip/unzip.h
+zlib-1.2.13/contrib/minizip/miniunzip.1
+zlib-1.2.13/contrib/minizip/mztools.h
+zlib-1.2.13/contrib/minizip/ioapi.h
+zlib-1.2.13/contrib/minizip/iowin32.c
+zlib-1.2.13/contrib/minizip/minizip.c
+zlib-1.2.13/contrib/minizip/miniunz.c
+zlib-1.2.13/contrib/README.contrib
+zlib-1.2.13/contrib/delphi/
+zlib-1.2.13/contrib/delphi/ZLibConst.pas
+zlib-1.2.13/contrib/delphi/ZLib.pas
+zlib-1.2.13/contrib/delphi/readme.txt
+zlib-1.2.13/contrib/delphi/zlibd32.mak
+zlib-1.2.13/contrib/infback9/
+zlib-1.2.13/contrib/infback9/inffix9.h
+zlib-1.2.13/contrib/infback9/inftree9.c
+zlib-1.2.13/contrib/infback9/infback9.h
+zlib-1.2.13/contrib/infback9/README
+zlib-1.2.13/contrib/infback9/inflate9.h
+zlib-1.2.13/contrib/infback9/infback9.c
+zlib-1.2.13/contrib/infback9/inftree9.h
+zlib-1.2.13/contrib/gcc_gvmat64/
+zlib-1.2.13/contrib/gcc_gvmat64/gvmat64.S
+zlib-1.2.13/contrib/testzlib/
+zlib-1.2.13/contrib/testzlib/testzlib.txt
+zlib-1.2.13/contrib/testzlib/testzlib.c
+zlib-1.2.13/contrib/iostream/
+zlib-1.2.13/contrib/iostream/test.cpp
+zlib-1.2.13/contrib/iostream/zfstream.cpp
+zlib-1.2.13/contrib/iostream/zfstream.h
+zlib-1.2.13/contrib/blast/
+zlib-1.2.13/contrib/blast/blast.c
+zlib-1.2.13/contrib/blast/Makefile
+zlib-1.2.13/contrib/blast/test.pk
+zlib-1.2.13/contrib/blast/README
+zlib-1.2.13/contrib/blast/blast.h
+zlib-1.2.13/contrib/blast/test.txt
+zlib-1.2.13/contrib/untgz/
+zlib-1.2.13/contrib/untgz/Makefile.msc
+zlib-1.2.13/contrib/untgz/Makefile
+zlib-1.2.13/contrib/untgz/untgz.c
+zlib-1.2.13/contrib/puff/
+zlib-1.2.13/contrib/puff/Makefile
+zlib-1.2.13/contrib/puff/puff.h
+zlib-1.2.13/contrib/puff/README
+zlib-1.2.13/contrib/puff/pufftest.c
+zlib-1.2.13/contrib/puff/puff.c
+zlib-1.2.13/contrib/puff/zeros.raw
+zlib-1.2.13/contrib/iostream3/
+zlib-1.2.13/contrib/iostream3/zfstream.cc
+zlib-1.2.13/contrib/iostream3/zfstream.h
+zlib-1.2.13/contrib/iostream3/README
+zlib-1.2.13/contrib/iostream3/TODO
+zlib-1.2.13/contrib/iostream3/test.cc
+zlib-1.2.13/contrib/iostream2/
+zlib-1.2.13/contrib/iostream2/zstream.h
+zlib-1.2.13/contrib/iostream2/zstream_test.cpp
+zlib-1.2.13/crc32.c
+zlib-1.2.13/README
+zlib-1.2.13/infback.c
+zlib-1.2.13/zutil.c
+zlib-1.2.13/deflate.h
+zlib-1.2.13/zlib.pc.in
+zlib-1.2.13/zlib2ansi
+zlib-1.2.13/gzguts.h
+zlib-1.2.13/examples/
+zlib-1.2.13/examples/gznorm.c
+zlib-1.2.13/examples/fitblk.c
+zlib-1.2.13/examples/enough.c
+zlib-1.2.13/examples/gzlog.h
+zlib-1.2.13/examples/gzjoin.c
+zlib-1.2.13/examples/gun.c
+zlib-1.2.13/examples/zran.h
+zlib-1.2.13/examples/README.examples
+zlib-1.2.13/examples/zlib_how.html
+zlib-1.2.13/examples/zpipe.c
+zlib-1.2.13/examples/gzlog.c
+zlib-1.2.13/examples/zran.c
+zlib-1.2.13/examples/gzappend.c
+zlib-1.2.13/zlib.h
+zlib-1.2.13/gzlib.c
+zlib-1.2.13/make_vms.com
+zlib-1.2.13/nintendods/
+zlib-1.2.13/nintendods/Makefile
+zlib-1.2.13/nintendods/README
+zlib-1.2.13/amiga/
+zlib-1.2.13/amiga/Makefile.sas
+zlib-1.2.13/amiga/Makefile.pup
+zlib-1.2.13/inflate.h
+zlib-1.2.13/inftrees.c
+zlib-1.2.13/INDEX
+zlib-1.2.13/doc/
+zlib-1.2.13/doc/rfc1952.txt
+zlib-1.2.13/doc/rfc1950.txt
+zlib-1.2.13/doc/algorithm.txt
+zlib-1.2.13/doc/rfc1951.txt
+zlib-1.2.13/doc/txtvsbin.txt
+zlib-1.2.13/doc/crc-doc.1.0.pdf
+zlib-1.2.13/uncompr.c
+zlib-1.2.13/gzwrite.c
+zlib-1.2.13/trees.c
+zlib-1.2.13/gzclose.c
+zlib-1.2.13/win32/
+zlib-1.2.13/win32/VisualC.txt
+zlib-1.2.13/win32/Makefile.bor
+zlib-1.2.13/win32/Makefile.msc
+zlib-1.2.13/win32/zlib.def
+zlib-1.2.13/win32/DLL_FAQ.txt
+zlib-1.2.13/win32/README-WIN32.txt
+zlib-1.2.13/win32/Makefile.gcc
+zlib-1.2.13/win32/zlib1.rc
+zlib-1.2.13/crc32.h
+100 1462k  100 1462k    0     0   665k      0  0:00:02  0:00:02 --:--:--  665k
+zlib-1.2.13/Makefile.in
+zlib-1.2.13/inffast.c
+zlib-1.2.13/adler32.c
+zlib-1.2.13/zconf.h
+zlib-1.2.13/watcom/
+zlib-1.2.13/watcom/watcom_f.mak
+zlib-1.2.13/watcom/watcom_l.mak
+Downloading https://github.com/cybozu/nginx-uuid4-module/archive/master.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 23368    0 23368    0     0  30878      0 --:--:-- --:--:-- --:--:-- 30878
+nginx-uuid4-module-master/
+nginx-uuid4-module-master/LICENSE
+nginx-uuid4-module-master/README.md
+nginx-uuid4-module-master/config
+nginx-uuid4-module-master/mt19937/
+nginx-uuid4-module-master/mt19937/mt19937-64.c
+nginx-uuid4-module-master/mt19937/mt19937-64.out.txt
+nginx-uuid4-module-master/mt19937/mt19937-64test.c
+nginx-uuid4-module-master/mt19937/mt64.h
+nginx-uuid4-module-master/ngx_http_uuid4.c
+Downloading https://github.com/nginx/njs/archive/0.5.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0njs-0.5.3/
+njs-0.5.3/.gitignore
+njs-0.5.3/.hgignore
+njs-0.5.3/.hgtags
+njs-0.5.3/CHANGES
+njs-0.5.3/LICENSE
+njs-0.5.3/README
+njs-0.5.3/auto/
+njs-0.5.3/auto/cc
+njs-0.5.3/auto/clang
+njs-0.5.3/auto/define
+njs-0.5.3/auto/deps
+njs-0.5.3/auto/endianness
+njs-0.5.3/auto/expect
+njs-0.5.3/auto/explicit_bzero
+njs-0.5.3/auto/feature
+njs-0.5.3/auto/getrandom
+njs-0.5.3/auto/help
+njs-0.5.3/auto/init
+njs-0.5.3/auto/make
+njs-0.5.3/auto/memalign
+njs-0.5.3/auto/options
+njs-0.5.3/auto/os
+njs-0.5.3/auto/pcre
+njs-0.5.3/auto/readline
+njs-0.5.3/auto/sources
+njs-0.5.3/auto/summary
+njs-0.5.3/auto/time
+njs-0.5.3/auto/types
+njs-0.5.3/configure
+njs-0.5.3/nginx/
+njs-0.5.3/nginx/config
+njs-0.5.3/nginx/config.make
+njs-0.5.3/nginx/ngx_http_js_module.c
+njs-0.5.3/nginx/ngx_js.c
+njs-0.5.3/nginx/ngx_js.h
+njs-0.5.3/nginx/ngx_js_fetch.c
+njs-0.5.3/nginx/ngx_js_fetch.h
+njs-0.5.3/nginx/ngx_stream_js_module.c
+njs-0.5.3/src/
+njs-0.5.3/src/njs.h
+njs-0.5.3/src/njs_arr.c
+njs-0.5.3/src/njs_arr.h
+njs-0.5.3/src/njs_array.c
+njs-0.5.3/src/njs_array.h
+njs-0.5.3/src/njs_array_buffer.c
+njs-0.5.3/src/njs_array_buffer.h
+njs-0.5.3/src/njs_assert.h
+njs-0.5.3/src/njs_boolean.c
+njs-0.5.3/src/njs_boolean.h
+njs-0.5.3/src/njs_buffer.c
+njs-0.5.3/src/njs_buffer.h
+njs-0.5.3/src/njs_builtin.c
+njs-0.5.3/src/njs_chb.c
+njs-0.5.3/src/njs_chb.h
+njs-0.5.3/src/njs_clang.h
+njs-0.5.3/src/njs_crypto.c
+njs-0.5.3/src/njs_crypto.h
+njs-0.5.3/src/njs_date.c
+njs-0.5.3/src/njs_date.h
+njs-0.5.3/src/njs_disassembler.c
+njs-0.5.3/src/njs_diyfp.c
+njs-0.5.3/src/njs_diyfp.h
+njs-0.5.3/src/njs_djb_hash.c
+njs-0.5.3/src/njs_djb_hash.h
+njs-0.5.3/src/njs_dtoa.c
+njs-0.5.3/src/njs_dtoa.h
+njs-0.5.3/src/njs_dtoa_fixed.c
+njs-0.5.3/src/njs_dtoa_fixed.h
+njs-0.5.3/src/njs_encoding.c
+njs-0.5.3/src/njs_encoding.h
+njs-0.5.3/src/njs_error.c
+njs-0.5.3/src/njs_error.h
+njs-0.5.3/src/njs_event.c
+njs-0.5.3/src/njs_event.h
+njs-0.5.3/src/njs_extern.c
+njs-0.5.3/src/njs_file.c
+njs-0.5.3/src/njs_file.h
+njs-0.5.3/src/njs_fs.c
+njs-0.5.3/src/njs_fs.h
+njs-0.5.3/src/njs_function.c
+njs-0.5.3/src/njs_function.h
+njs-0.5.3/src/njs_generator.c
+njs-0.5.3/src/njs_generator.h
+njs-0.5.3/src/njs_iterator.c
+njs-0.5.3/src/njs_iterator.h
+njs-0.5.3/src/njs_json.c
+njs-0.5.3/src/njs_json.h
+njs-0.5.3/src/njs_lexer.c
+njs-0.5.3/src/njs_lexer.h
+njs-0.5.3/src/njs_lexer_keyword.c
+njs-0.5.3/src/njs_lexer_tables.h
+njs-0.5.3/src/njs_lvlhsh.c
+njs-0.5.3/src/njs_lvlhsh.h
+njs-0.5.3/src/njs_main.h
+njs-0.5.3/src/njs_malloc.c
+njs-0.5.3/src/njs_malloc.h
+njs-0.5.3/src/njs_math.c
+njs-0.5.3/src/njs_math.h
+njs-0.5.3/src/njs_md5.c
+njs-0.5.3/src/njs_md5.h
+njs-0.5.3/src/njs_module.c
+njs-0.5.3/src/njs_module.h
+njs-0.5.3/src/njs_mp.c
+njs-0.5.3/src/njs_mp.h
+njs-0.5.3/src/njs_murmur_hash.c
+njs-0.5.3/src/njs_murmur_hash.h
+njs-0.5.3/src/njs_number.c
+njs-0.5.3/src/njs_number.h
+njs-0.5.3/src/njs_object.c
+njs-0.5.3/src/njs_object.h
+njs-0.5.3/src/njs_object_hash.h
+njs-0.5.3/src/njs_object_prop.c
+njs-0.5.3/src/njs_parser.c
+njs-0.5.3/src/njs_parser.h
+njs-0.5.3/src/njs_pcre.c
+njs-0.5.3/src/njs_pcre.h
+njs-0.5.3/src/njs_promise.c
+njs-0.5.3/src/njs_promise.h
+njs-0.5.3/src/njs_query_string.c
+njs-0.5.3/src/njs_query_string.h
+njs-0.5.3/src/njs_queue.c
+njs-0.5.3/src/njs_queue.h
+njs-0.5.3/src/njs_random.c
+njs-0.5.3/src/njs_random.h
+njs-0.5.3/src/njs_rbtree.c
+njs-0.5.3/src/njs_rbtree.h
+njs-0.5.3/src/njs_regex.h
+njs-0.5.3/src/njs_regexp.c
+100  507k    0  507k    0     0   464k      0 --:--:--  0:00:01 --:--:--  967k
+njs-0.5.3/src/njs_regexp.h
+njs-0.5.3/src/njs_regexp_pattern.h
+njs-0.5.3/src/njs_sha1.c
+njs-0.5.3/src/njs_sha1.h
+njs-0.5.3/src/njs_sha2.c
+njs-0.5.3/src/njs_sha2.h
+njs-0.5.3/src/njs_shell.c
+njs-0.5.3/src/njs_sprintf.c
+njs-0.5.3/src/njs_sprintf.h
+njs-0.5.3/src/njs_str.h
+njs-0.5.3/src/njs_string.c
+njs-0.5.3/src/njs_string.h
+njs-0.5.3/src/njs_strtod.c
+njs-0.5.3/src/njs_strtod.h
+njs-0.5.3/src/njs_symbol.c
+njs-0.5.3/src/njs_symbol.h
+njs-0.5.3/src/njs_time.c
+njs-0.5.3/src/njs_time.h
+njs-0.5.3/src/njs_timer.c
+njs-0.5.3/src/njs_timer.h
+njs-0.5.3/src/njs_trace.c
+njs-0.5.3/src/njs_trace.h
+njs-0.5.3/src/njs_typed_array.c
+njs-0.5.3/src/njs_typed_array.h
+njs-0.5.3/src/njs_types.h
+njs-0.5.3/src/njs_unicode.h
+njs-0.5.3/src/njs_unicode_lower_case.h
+njs-0.5.3/src/njs_unicode_lower_case.pl
+njs-0.5.3/src/njs_unicode_upper_case.h
+njs-0.5.3/src/njs_unicode_upper_case.pl
+njs-0.5.3/src/njs_unix.h
+njs-0.5.3/src/njs_utf16.c
+njs-0.5.3/src/njs_utf16.h
+njs-0.5.3/src/njs_utf8.c
+njs-0.5.3/src/njs_utf8.h
+njs-0.5.3/src/njs_utils.c
+njs-0.5.3/src/njs_utils.h
+njs-0.5.3/src/njs_value.c
+njs-0.5.3/src/njs_value.h
+njs-0.5.3/src/njs_value_conversion.h
+njs-0.5.3/src/njs_variable.c
+njs-0.5.3/src/njs_variable.h
+njs-0.5.3/src/njs_vm.c
+njs-0.5.3/src/njs_vm.h
+njs-0.5.3/src/njs_vmcode.c
+njs-0.5.3/src/njs_vmcode.h
+njs-0.5.3/src/test/
+njs-0.5.3/src/test/lvlhsh_unit_test.c
+njs-0.5.3/src/test/njs_benchmark.c
+njs-0.5.3/src/test/njs_externals_test.c
+njs-0.5.3/src/test/njs_externals_test.h
+njs-0.5.3/src/test/njs_unit_test.c
+njs-0.5.3/src/test/random_unit_test.c
+njs-0.5.3/src/test/rbtree_unit_test.c
+njs-0.5.3/src/test/unicode_unit_test.c
+njs-0.5.3/test/
+njs-0.5.3/test/fs/
+njs-0.5.3/test/fs/ascii
+njs-0.5.3/test/fs/non_utf8
+njs-0.5.3/test/fs/utf8
+njs-0.5.3/test/inputrc
+njs-0.5.3/test/js/
+njs-0.5.3/test/js/fs_appendFile.js
+njs-0.5.3/test/js/fs_appendFileSync.js
+njs-0.5.3/test/js/fs_promises_001.js
+njs-0.5.3/test/js/fs_promises_002.js
+njs-0.5.3/test/js/fs_promises_003.js
+njs-0.5.3/test/js/fs_promises_004.js
+njs-0.5.3/test/js/fs_promises_005.js
+njs-0.5.3/test/js/fs_promises_006.js
+njs-0.5.3/test/js/fs_promises_007.js
+njs-0.5.3/test/js/fs_promises_008.js
+njs-0.5.3/test/js/fs_promises_009.js
+njs-0.5.3/test/js/fs_readFile.js
+njs-0.5.3/test/js/fs_readFileSync.js
+njs-0.5.3/test/js/fs_writeFile.js
+njs-0.5.3/test/js/fs_writeFileSync.js
+njs-0.5.3/test/js/promise_catch_then_throw_catch.js
+njs-0.5.3/test/js/promise_catch_throw.js
+njs-0.5.3/test/js/promise_finally_throw.js
+njs-0.5.3/test/js/promise_finally_throw_catch.js
+njs-0.5.3/test/js/promise_reject_catch.js
+njs-0.5.3/test/js/promise_reject_post_catch.js
+njs-0.5.3/test/js/promise_s1.js
+njs-0.5.3/test/js/promise_s10.js
+njs-0.5.3/test/js/promise_s11.js
+njs-0.5.3/test/js/promise_s12.js
+njs-0.5.3/test/js/promise_s13.js
+njs-0.5.3/test/js/promise_s14.js
+njs-0.5.3/test/js/promise_s15.js
+njs-0.5.3/test/js/promise_s16.js
+njs-0.5.3/test/js/promise_s17.js
+njs-0.5.3/test/js/promise_s18.js
+njs-0.5.3/test/js/promise_s19.js
+njs-0.5.3/test/js/promise_s2.js
+njs-0.5.3/test/js/promise_s20.js
+njs-0.5.3/test/js/promise_s21.js
+njs-0.5.3/test/js/promise_s22.js
+njs-0.5.3/test/js/promise_s23.js
+njs-0.5.3/test/js/promise_s24.js
+njs-0.5.3/test/js/promise_s25.js
+njs-0.5.3/test/js/promise_s26.js
+njs-0.5.3/test/js/promise_s3.js
+njs-0.5.3/test/js/promise_s4.js
+njs-0.5.3/test/js/promise_s5.js
+njs-0.5.3/test/js/promise_s6.js
+njs-0.5.3/test/js/promise_s7.js
+njs-0.5.3/test/js/promise_s8.js
+njs-0.5.3/test/js/promise_s9.js
+njs-0.5.3/test/js/promise_set_timeout.js
+njs-0.5.3/test/js/promise_then_throw.js
+njs-0.5.3/test/js/promise_then_throw_catch.js
+njs-0.5.3/test/js/promise_then_throw_finally_catch.js
+njs-0.5.3/test/js/promise_two_first_then_throw.js
+njs-0.5.3/test/js/promise_two_then_throw.js
+njs-0.5.3/test/module/
+njs-0.5.3/test/module/declaration_exception.js
+njs-0.5.3/test/module/empty.js
+njs-0.5.3/test/module/exception.js
+njs-0.5.3/test/module/export.js
+njs-0.5.3/test/module/export_expression.js
+njs-0.5.3/test/module/export_expression2.js
+njs-0.5.3/test/module/export_name.js
+njs-0.5.3/test/module/export_non_default.js
+njs-0.5.3/test/module/lib1.js
+njs-0.5.3/test/module/lib2.js
+njs-0.5.3/test/module/lib3.js
+njs-0.5.3/test/module/libs/
+njs-0.5.3/test/module/libs/hash.js
+njs-0.5.3/test/module/libs/name.js
+njs-0.5.3/test/module/loading_exception.js
+njs-0.5.3/test/module/name.js
+njs-0.5.3/test/module/normal.js
+njs-0.5.3/test/module/recursive.js
+njs-0.5.3/test/module/ref_exception.js
+njs-0.5.3/test/module/return.js
+njs-0.5.3/test/module/sub/
+njs-0.5.3/test/module/sub/sub1.js
+njs-0.5.3/test/module/sub/sub2.js
+njs-0.5.3/test/njs_expect_test.exp
+njs-0.5.3/test/script_args.js
+njs-0.5.3/test/ts/
+njs-0.5.3/test/ts/package.json
+njs-0.5.3/test/ts/test.ts
+njs-0.5.3/test/ts/tsconfig.json
+njs-0.5.3/ts/
+njs-0.5.3/ts/README.md
+njs-0.5.3/ts/index.d.ts
+njs-0.5.3/ts/ngx_core.d.ts
+njs-0.5.3/ts/ngx_http_js_module.d.ts
+njs-0.5.3/ts/ngx_stream_js_module.d.ts
+njs-0.5.3/ts/njs_core.d.ts
+njs-0.5.3/ts/njs_modules/
+njs-0.5.3/ts/njs_modules/crypto.d.ts
+njs-0.5.3/ts/njs_modules/fs.d.ts
+njs-0.5.3/ts/njs_modules/querystring.d.ts
+njs-0.5.3/ts/njs_shell.d.ts
+njs-0.5.3/ts/package.json
+njs-0.5.3/ts/tsconfig.json
+njs-0.5.3/utils/
+njs-0.5.3/utils/lexer_keyword.py
+total 860
+-rw-r--r--  1 1001  1001 323752 Jun 13 15:08 CHANGES
+-rw-r--r--  1 1001  1001 494901 Jun 13 15:08 CHANGES.ru
+-rw-r--r--  1 1001  1001   1397 Jun 13 15:08 LICENSE
+-rw-r--r--  1 1001  1001     49 Jun 13 15:08 README
+drwxr-xr-x  6 1001  1001   4096 Jun 26 15:04 auto
+drwxr-xr-x  2 1001  1001   4096 Jun 26 15:04 conf
+-rwxr-xr-x  1 1001  1001   2611 Jun 13 15:08 configure
+drwxr-xr-x  4 1001  1001   4096 Jun 26 15:04 contrib
+drwxrwxr-x  5 root root    4096 Jul 17  2022 headers-more-nginx-module-0.34
+drwxr-xr-x  2 1001  1001   4096 Jun 26 15:04 html
+drwxr-xr-x  2 1001  1001   4096 Jun 26 15:04 man
+drwxrwxr-x  3 root root    4096 Nov  6  2018 nginx-uuid4-module-master
+drwxrwxr-x  8 root root    4096 Mar 30  2021 njs-0.5.3
+drwxr-xr-x  7 1169  1169   4096 Jun 15  2021 pcre-8.45
+drwxr-xr-x  9 1001  1001   4096 Jun 26 15:04 src
+drwxr-xr-x 14  501 staff   4096 Oct 13  2022 zlib-1.2.13
+checking for OS
+ + Linux 5.10.124-linuxkit x86_64
+checking for C compiler ... found
+ + using GNU C compiler
+ + gcc version: 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04.1) 
+checking for gcc -pipe switch ... found
+checking for -Wl,-E switch ... found
+checking for gcc builtin atomic operations ... found
+checking for C99 variadic macros ... found
+checking for gcc variadic macros ... found
+checking for gcc builtin 64 bit byteswap ... found
+checking for unistd.h ... found
+checking for inttypes.h ... found
+checking for limits.h ... found
+checking for sys/filio.h ... not found
+checking for sys/param.h ... found
+checking for sys/mount.h ... found
+checking for sys/statvfs.h ... found
+checking for crypt.h ... found
+checking for Linux specific features
+checking for epoll ... found
+checking for EPOLLRDHUP ... found
+checking for EPOLLEXCLUSIVE ... found
+checking for eventfd() ... found
+checking for O_PATH ... found
+checking for sendfile() ... found
+checking for sendfile64() ... found
+checking for sys/prctl.h ... found
+checking for prctl(PR_SET_DUMPABLE) ... found
+checking for prctl(PR_SET_KEEPCAPS) ... found
+checking for capabilities ... found
+checking for crypt_r() ... found
+checking for sys/vfs.h ... found
+checking for BPF sockhash ... found
+checking for SO_COOKIE ... found
+checking for UDP_SEGMENT ... found
+checking for nobody group ... not found
+checking for nogroup group ... found
+checking for poll() ... found
+checking for /dev/poll ... not found
+checking for kqueue ... not found
+checking for crypt() ... not found
+checking for crypt() in libcrypt ... found
+checking for F_READAHEAD ... not found
+checking for posix_fadvise() ... found
+checking for O_DIRECT ... found
+checking for F_NOCACHE ... not found
+checking for directio() ... not found
+checking for statfs() ... found
+checking for statvfs() ... found
+checking for dlopen() ... found
+checking for sched_yield() ... found
+checking for sched_setaffinity() ... found
+checking for SO_SETFIB ... not found
+checking for SO_REUSEPORT ... found
+checking for SO_ACCEPTFILTER ... not found
+checking for SO_BINDANY ... not found
+checking for IP_TRANSPARENT ... found
+checking for IP_BINDANY ... not found
+checking for IP_BIND_ADDRESS_NO_PORT ... found
+checking for IP_RECVDSTADDR ... not found
+checking for IP_SENDSRCADDR ... not found
+checking for IP_PKTINFO ... found
+checking for IPV6_RECVPKTINFO ... found
+checking for IP_MTU_DISCOVER ... found
+checking for IPV6_MTU_DISCOVER ... found
+checking for IP_DONTFRAG ... not found
+checking for IPV6_DONTFRAG ... found
+checking for TCP_DEFER_ACCEPT ... found
+checking for TCP_KEEPIDLE ... found
+checking for TCP_FASTOPEN ... found
+checking for TCP_INFO ... found
+checking for accept4() ... found
+checking for int size ... 4 bytes
+checking for long size ... 8 bytes
+checking for long long size ... 8 bytes
+checking for void * size ... 8 bytes
+checking for uint32_t ... found
+checking for uint64_t ... found
+checking for sig_atomic_t ... found
+checking for sig_atomic_t size ... 4 bytes
+checking for socklen_t ... found
+checking for in_addr_t ... found
+checking for in_port_t ... found
+checking for rlim_t ... found
+checking for uintptr_t ... uintptr_t found
+checking for system byte ordering ... little endian
+checking for size_t size ... 8 bytes
+checking for off_t size ... 8 bytes
+checking for time_t size ... 8 bytes
+checking for AF_INET6 ... found
+checking for setproctitle() ... not found
+checking for pread() ... found
+checking for pwrite() ... found
+checking for pwritev() ... found
+checking for strerrordesc_np() ... found
+checking for localtime_r() ... found
+checking for clock_gettime(CLOCK_MONOTONIC) ... found
+checking for posix_memalign() ... found
+checking for memalign() ... found
+checking for mmap(MAP_ANON|MAP_SHARED) ... found
+checking for mmap("/dev/zero", MAP_SHARED) ... found
+checking for System V shared memory ... found
+checking for POSIX semaphores ... found
+checking for struct msghdr.msg_control ... found
+checking for ioctl(FIONBIO) ... found
+checking for ioctl(FIONREAD) ... found
+checking for struct tm.tm_gmtoff ... found
+checking for struct dirent.d_namlen ... not found
+checking for struct dirent.d_type ... found
+checking for sysconf(_SC_NPROCESSORS_ONLN) ... found
+checking for sysconf(_SC_LEVEL1_DCACHE_LINESIZE) ... found
+checking for openat(), fstatat() ... found
+checking for getaddrinfo() ... found
+configuring additional modules
+adding module in /tmp/nginx.tRBPXmazZn/nginx-1.25.1/headers-more-nginx-module-0.34
+ + ngx_http_headers_more_filter_module was configured
+adding module in /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master
+ + ngx_http_uuid4 was configured
+adding module in /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx
+ + ngx_js_module was configured
+checking for OpenSSL library ... found
+creating objs/Makefile
+
+Configuration summary
+  + using PCRE library: pcre-8.45
+  + using system OpenSSL library
+  + using zlib library: zlib-1.2.13
+
+  nginx path prefix: "/tmp/nginx"
+  nginx binary file: "/tmp/nginx/sbin/nginx"
+  nginx modules path: "/tmp/nginx/modules"
+  nginx configuration prefix: "/tmp/nginx/conf"
+  nginx configuration file: "/tmp/nginx/conf/nginx.conf"
+  nginx pid file: "/tmp/nginx/logs/nginx.pid"
+  nginx error log file: "/tmp/nginx/logs/error.log"
+  nginx http access log file: "/tmp/nginx/logs/access.log"
+  nginx http client request body temporary files: "client_body_temp"
+  nginx http proxy temporary files: "proxy_temp"
+  nginx http fastcgi temporary files: "fastcgi_temp"
+  nginx http uwsgi temporary files: "uwsgi_temp"
+  nginx http scgi temporary files: "scgi_temp"
+
+make -f objs/Makefile install
+make[1]: Entering directory '/tmp/nginx.tRBPXmazZn/nginx-1.25.1'
+cd pcre-8.45 \
+&& if [ -f Makefile ]; then make distclean; fi \
+&& CC="cc" CFLAGS="-O2 -fomit-frame-pointer -pipe " \
+./configure --disable-shared 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether cc accepts -g... yes
+checking for cc option to enable C11 features... none needed
+checking whether cc understands -c and -o together... yes
+checking dependency style of cc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for gcc... (cached) cc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether cc accepts -g... (cached) yes
+checking for cc option to enable C11 features... (cached) none needed
+checking whether cc understands -c and -o together... (cached) yes
+checking dependency style of cc... (cached) gcc3
+checking for g++... g++
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking dependency style of g++... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for int64_t... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... no
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... yes
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether ln -s works... yes
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for egrep... (cached) /usr/bin/grep -E
+checking for limits.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for dirent.h... yes
+checking for windows.h... no
+checking for alias support in the linker... no
+checking for alias support in the linker... no
+checking for string... yes
+checking for bits/type_traits.h... no
+checking for type_traits.h... no
+checking for strtoq... yes
+checking for long long... yes
+checking for unsigned long long... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for bcopy... yes
+checking for memmove... yes
+checking for strerror... yes
+checking for zlib.h... yes
+checking for gzopen in -lz... yes
+checking for bzlib.h... yes
+checking for libbz2... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libpcre.pc
+config.status: creating libpcre16.pc
+config.status: creating libpcre32.pc
+config.status: creating libpcreposix.pc
+config.status: creating libpcrecpp.pc
+config.status: creating pcre-config
+config.status: creating pcre.h
+config.status: creating pcre_stringpiece.h
+config.status: creating pcrecpparg.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing script-chmod commands
+config.status: executing delete-old-chartables commands
+
+pcre-8.45 configuration summary:
+
+    Install prefix .................. : /usr/local
+    C preprocessor .................. : 
+    C compiler ...................... : cc
+    C++ preprocessor ................ : g++ -E
+    C++ compiler .................... : g++
+    Linker .......................... : /usr/bin/ld -m elf_x86_64
+    C preprocessor flags ............ : 
+    C compiler flags ................ : -O2 -fomit-frame-pointer -pipe  -fvisibility=hidden
+    C++ compiler flags .............. : -O2 -fvisibility=hidden -fvisibility-inlines-hidden
+    Linker flags .................... : 
+    Extra libraries ................. : 
+
+    Build 8 bit pcre library ........ : yes
+    Build 16 bit pcre library ....... : no
+    Build 32 bit pcre library ....... : no
+    Build C++ library ............... : yes
+    Enable JIT compiling support .... : no
+    Enable UTF-8/16/32 support ...... : no
+    Unicode properties .............. : no
+    Newline char/sequence ........... : lf
+    \R matches only ANYCRLF ......... : no
+    EBCDIC coding ................... : no
+    EBCDIC code for NL .............. : n/a
+    Rebuild char tables ............. : no
+    Use stack recursion ............. : yes
+    POSIX mem threshold ............. : 10
+    Internal link size .............. : 2
+    Nested parentheses limit ........ : 250
+    Match limit ..................... : 10000000
+    Match limit recursion ........... : MATCH_LIMIT
+    Build shared libs ............... : no
+    Build static libs ............... : yes
+    Use JIT in pcregrep ............. : no
+    Buffer size for pcregrep ........ : 20480
+    Link pcregrep with libz ......... : no
+    Link pcregrep with libbz2 ....... : no
+    Link pcretest with libedit ...... : no
+    Link pcretest with libreadline .. : no
+    Valgrind support ................ : no
+    Code coverage ................... : no
+
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/nginx.o \
+	src/core/nginx.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_log.o \
+	src/core/ngx_log.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_palloc.o \
+	src/core/ngx_palloc.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_array.o \
+	src/core/ngx_array.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_list.o \
+	src/core/ngx_list.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_hash.o \
+	src/core/ngx_hash.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_buf.o \
+	src/core/ngx_buf.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_queue.o \
+	src/core/ngx_queue.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_output_chain.o \
+	src/core/ngx_output_chain.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_string.o \
+	src/core/ngx_string.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_parse.o \
+	src/core/ngx_parse.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_parse_time.o \
+	src/core/ngx_parse_time.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_inet.o \
+	src/core/ngx_inet.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_file.o \
+	src/core/ngx_file.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_crc32.o \
+	src/core/ngx_crc32.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_murmurhash.o \
+	src/core/ngx_murmurhash.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_md5.o \
+	src/core/ngx_md5.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_sha1.o \
+	src/core/ngx_sha1.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_rbtree.o \
+	src/core/ngx_rbtree.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_radix_tree.o \
+	src/core/ngx_radix_tree.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_slab.o \
+	src/core/ngx_slab.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_times.o \
+	src/core/ngx_times.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_shmtx.o \
+	src/core/ngx_shmtx.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_connection.o \
+	src/core/ngx_connection.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_cycle.o \
+	src/core/ngx_cycle.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_spinlock.o \
+	src/core/ngx_spinlock.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_rwlock.o \
+	src/core/ngx_rwlock.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_cpuinfo.o \
+	src/core/ngx_cpuinfo.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_conf_file.o \
+	src/core/ngx_conf_file.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_module.o \
+	src/core/ngx_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_resolver.o \
+	src/core/ngx_resolver.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_open_file_cache.o \
+	src/core/ngx_open_file_cache.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_crypt.o \
+	src/core/ngx_crypt.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_proxy_protocol.o \
+	src/core/ngx_proxy_protocol.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_syslog.o \
+	src/core/ngx_syslog.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event.o \
+	src/event/ngx_event.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_timer.o \
+	src/event/ngx_event_timer.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_posted.o \
+	src/event/ngx_event_posted.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_accept.o \
+	src/event/ngx_event_accept.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_udp.o \
+	src/event/ngx_event_udp.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_connect.o \
+	src/event/ngx_event_connect.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_pipe.o \
+	src/event/ngx_event_pipe.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_time.o \
+	src/os/unix/ngx_time.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_errno.o \
+	src/os/unix/ngx_errno.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_alloc.o \
+	src/os/unix/ngx_alloc.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_files.o \
+	src/os/unix/ngx_files.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_socket.o \
+	src/os/unix/ngx_socket.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_recv.o \
+	src/os/unix/ngx_recv.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_readv_chain.o \
+	src/os/unix/ngx_readv_chain.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_udp_recv.o \
+	src/os/unix/ngx_udp_recv.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_send.o \
+	src/os/unix/ngx_send.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_writev_chain.o \
+	src/os/unix/ngx_writev_chain.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_udp_send.o \
+	src/os/unix/ngx_udp_send.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_udp_sendmsg_chain.o \
+	src/os/unix/ngx_udp_sendmsg_chain.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_channel.o \
+	src/os/unix/ngx_channel.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_shmem.o \
+	src/os/unix/ngx_shmem.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_process.o \
+	src/os/unix/ngx_process.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_daemon.o \
+	src/os/unix/ngx_daemon.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_setaffinity.o \
+	src/os/unix/ngx_setaffinity.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_setproctitle.o \
+	src/os/unix/ngx_setproctitle.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_posix_init.o \
+	src/os/unix/ngx_posix_init.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_user.o \
+	src/os/unix/ngx_user.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_dlopen.o \
+	src/os/unix/ngx_dlopen.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_process_cycle.o \
+	src/os/unix/ngx_process_cycle.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_linux_init.o \
+	src/os/unix/ngx_linux_init.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/modules/ngx_epoll_module.o \
+	src/event/modules/ngx_epoll_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/os/unix/ngx_linux_sendfile_chain.o \
+	src/os/unix/ngx_linux_sendfile_chain.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_bpf.o \
+	src/core/ngx_bpf.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_openssl.o \
+	src/event/ngx_event_openssl.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/event/ngx_event_openssl_stapling.o \
+	src/event/ngx_event_openssl_stapling.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs \
+	-o objs/src/core/ngx_regex.o \
+	src/core/ngx_regex.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http.o \
+	src/http/ngx_http.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_core_module.o \
+	src/http/ngx_http_core_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_special_response.o \
+	src/http/ngx_http_special_response.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_request.o \
+	src/http/ngx_http_request.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_parse.o \
+	src/http/ngx_http_parse.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_log_module.o \
+	src/http/modules/ngx_http_log_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_request_body.o \
+	src/http/ngx_http_request_body.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_variables.o \
+	src/http/ngx_http_variables.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_script.o \
+	src/http/ngx_http_script.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_upstream.o \
+	src/http/ngx_http_upstream.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_upstream_round_robin.o \
+	src/http/ngx_http_upstream_round_robin.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_file_cache.o \
+	src/http/ngx_http_file_cache.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_write_filter_module.o \
+	src/http/ngx_http_write_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_header_filter_module.o \
+	src/http/ngx_http_header_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_chunked_filter_module.o \
+	src/http/modules/ngx_http_chunked_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_range_filter_module.o \
+	src/http/modules/ngx_http_range_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_gzip_filter_module.o \
+	src/http/modules/ngx_http_gzip_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_postpone_filter_module.o \
+	src/http/ngx_http_postpone_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_ssi_filter_module.o \
+	src/http/modules/ngx_http_ssi_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_charset_filter_module.o \
+	src/http/modules/ngx_http_charset_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_userid_filter_module.o \
+	src/http/modules/ngx_http_userid_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_headers_filter_module.o \
+	src/http/modules/ngx_http_headers_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/ngx_http_copy_filter_module.o \
+	src/http/ngx_http_copy_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_not_modified_filter_module.o \
+	src/http/modules/ngx_http_not_modified_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_static_module.o \
+	src/http/modules/ngx_http_static_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_gzip_static_module.o \
+	src/http/modules/ngx_http_gzip_static_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_autoindex_module.o \
+	src/http/modules/ngx_http_autoindex_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_index_module.o \
+	src/http/modules/ngx_http_index_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_mirror_module.o \
+	src/http/modules/ngx_http_mirror_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_try_files_module.o \
+	src/http/modules/ngx_http_try_files_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_auth_basic_module.o \
+	src/http/modules/ngx_http_auth_basic_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_access_module.o \
+	src/http/modules/ngx_http_access_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_limit_conn_module.o \
+	src/http/modules/ngx_http_limit_conn_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_limit_req_module.o \
+	src/http/modules/ngx_http_limit_req_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_realip_module.o \
+	src/http/modules/ngx_http_realip_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_geo_module.o \
+	src/http/modules/ngx_http_geo_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_map_module.o \
+	src/http/modules/ngx_http_map_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_split_clients_module.o \
+	src/http/modules/ngx_http_split_clients_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_referer_module.o \
+	src/http/modules/ngx_http_referer_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_rewrite_module.o \
+	src/http/modules/ngx_http_rewrite_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_ssl_module.o \
+	src/http/modules/ngx_http_ssl_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_proxy_module.o \
+	src/http/modules/ngx_http_proxy_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_fastcgi_module.o \
+	src/http/modules/ngx_http_fastcgi_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_uwsgi_module.o \
+	src/http/modules/ngx_http_uwsgi_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_scgi_module.o \
+	src/http/modules/ngx_http_scgi_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_memcached_module.o \
+	src/http/modules/ngx_http_memcached_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_empty_gif_module.o \
+	src/http/modules/ngx_http_empty_gif_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_browser_module.o \
+	src/http/modules/ngx_http_browser_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_upstream_hash_module.o \
+	src/http/modules/ngx_http_upstream_hash_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_upstream_ip_hash_module.o \
+	src/http/modules/ngx_http_upstream_ip_hash_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_upstream_least_conn_module.o \
+	src/http/modules/ngx_http_upstream_least_conn_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_upstream_random_module.o \
+	src/http/modules/ngx_http_upstream_random_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
+	src/http/modules/ngx_http_upstream_keepalive_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/src/http/modules/ngx_http_upstream_zone_module.o \
+	src/http/modules/ngx_http_upstream_zone_module.c
+cd /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/.. \
+&& if [ -f build/Makefile ]; then make clean; fi \
+&& CFLAGS="-pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g " CC="cc" ./configure \
+&& make
+configuring for Linux 5.10.124-linuxkit x86_64
+checking for C compiler: cc
+ + using GNU C compiler
+ + gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04.1) 
+checking for sizeof(int) ... 4
+checking for sizeof(u_int) ... 4
+checking for sizeof(void *) ... 8
+checking for sizeof(uintptr_t) ... 8
+checking for sizeof(size_t) ... 8
+checking for sizeof(off_t) ... 8
+checking for sizeof(time_t) ... 8
+checking for system byte ordering ... little
+checking for GCC unsigned __int128 ... found
+checking for GCC __builtin_expect() ... found
+checking for GCC __builtin_unreachable() ... found
+checking for GCC __builtin_prefetch() ... found
+checking for GCC __builtin_clz() ... found
+checking for GCC __builtin_clzll() ... found
+checking for GCC __attribute__ visibility ... found
+checking for GCC __attribute__ malloc ... found
+checking for GCC __attribute__ aligned ... found
+checking for Address sanitizer ... not found
+checking for Memory sanitizer ... not found
+checking for _mm_setcsr() ... found
+checking for clock_gettime(CLOCK_MONOTONIC) ... found
+checking for struct tm.tm_gmtoff ... found
+checking for altzone ... not found
+checking for posix_memalign() ... found
+checking for getrandom() ... found
+checking for explicit_bzero() ... found
+checking for PCRE library ... found
+ + PCRE version: 8.39
+checking for GNU readline library ... found
+creating build/Makefile
+checking for expect ... not found
+ - expect tests are disabled
+
+NJS configuration summary:
+
+ + using CC: "cc"
+ + using CFLAGS: " -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g "
+
+ + using PCRE library: -lpcre
+ + using readline library: -lreadline
+
+ njs build dir: build
+ njs CLI: build/njs
+
+make[2]: Entering directory '/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3'
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_diyfp.o \
+	-MMD -MF build/src/njs_diyfp.dep -MT build/src/njs_diyfp.o \
+	src/njs_diyfp.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_dtoa.o \
+	-MMD -MF build/src/njs_dtoa.dep -MT build/src/njs_dtoa.o \
+	src/njs_dtoa.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_dtoa_fixed.o \
+	-MMD -MF build/src/njs_dtoa_fixed.dep -MT build/src/njs_dtoa_fixed.o \
+	src/njs_dtoa_fixed.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_strtod.o \
+	-MMD -MF build/src/njs_strtod.dep -MT build/src/njs_strtod.o \
+	src/njs_strtod.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_murmur_hash.o \
+	-MMD -MF build/src/njs_murmur_hash.dep -MT build/src/njs_murmur_hash.o \
+	src/njs_murmur_hash.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_djb_hash.o \
+	-MMD -MF build/src/njs_djb_hash.dep -MT build/src/njs_djb_hash.o \
+	src/njs_djb_hash.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_utf8.o \
+	-MMD -MF build/src/njs_utf8.dep -MT build/src/njs_utf8.o \
+	src/njs_utf8.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_utf16.o \
+	-MMD -MF build/src/njs_utf16.dep -MT build/src/njs_utf16.o \
+	src/njs_utf16.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_arr.o \
+	-MMD -MF build/src/njs_arr.dep -MT build/src/njs_arr.o \
+	src/njs_arr.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_rbtree.o \
+	-MMD -MF build/src/njs_rbtree.dep -MT build/src/njs_rbtree.o \
+	src/njs_rbtree.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_lvlhsh.o \
+	-MMD -MF build/src/njs_lvlhsh.dep -MT build/src/njs_lvlhsh.o \
+	src/njs_lvlhsh.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_trace.o \
+	-MMD -MF build/src/njs_trace.dep -MT build/src/njs_trace.o \
+	src/njs_trace.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_random.o \
+	-MMD -MF build/src/njs_random.dep -MT build/src/njs_random.o \
+	src/njs_random.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_md5.o \
+	-MMD -MF build/src/njs_md5.dep -MT build/src/njs_md5.o \
+	src/njs_md5.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_sha1.o \
+	-MMD -MF build/src/njs_sha1.dep -MT build/src/njs_sha1.o \
+	src/njs_sha1.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_sha2.o \
+	-MMD -MF build/src/njs_sha2.dep -MT build/src/njs_sha2.o \
+	src/njs_sha2.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_pcre.o \
+	-MMD -MF build/src/njs_pcre.dep -MT build/src/njs_pcre.o \
+	src/njs_pcre.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_time.o \
+	-MMD -MF build/src/njs_time.dep -MT build/src/njs_time.o \
+	src/njs_time.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_file.o \
+	-MMD -MF build/src/njs_file.dep -MT build/src/njs_file.o \
+	src/njs_file.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_malloc.o \
+	-MMD -MF build/src/njs_malloc.dep -MT build/src/njs_malloc.o \
+	src/njs_malloc.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_mp.o \
+	-MMD -MF build/src/njs_mp.dep -MT build/src/njs_mp.o \
+	src/njs_mp.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_sprintf.o \
+	-MMD -MF build/src/njs_sprintf.dep -MT build/src/njs_sprintf.o \
+	src/njs_sprintf.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_utils.o \
+	-MMD -MF build/src/njs_utils.dep -MT build/src/njs_utils.o \
+	src/njs_utils.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_chb.o \
+	-MMD -MF build/src/njs_chb.dep -MT build/src/njs_chb.o \
+	src/njs_chb.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_value.o \
+	-MMD -MF build/src/njs_value.dep -MT build/src/njs_value.o \
+	src/njs_value.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_vm.o \
+	-MMD -MF build/src/njs_vm.dep -MT build/src/njs_vm.o \
+	src/njs_vm.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_vmcode.o \
+	-MMD -MF build/src/njs_vmcode.dep -MT build/src/njs_vmcode.o \
+	src/njs_vmcode.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_boolean.o \
+	-MMD -MF build/src/njs_boolean.dep -MT build/src/njs_boolean.o \
+	src/njs_boolean.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_number.o \
+	-MMD -MF build/src/njs_number.dep -MT build/src/njs_number.o \
+	src/njs_number.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_symbol.o \
+	-MMD -MF build/src/njs_symbol.dep -MT build/src/njs_symbol.o \
+	src/njs_symbol.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_string.o \
+	-MMD -MF build/src/njs_string.dep -MT build/src/njs_string.o \
+	src/njs_string.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_object.o \
+	-MMD -MF build/src/njs_object.dep -MT build/src/njs_object.o \
+	src/njs_object.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_object_prop.o \
+	-MMD -MF build/src/njs_object_prop.dep -MT build/src/njs_object_prop.o \
+	src/njs_object_prop.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_array.o \
+	-MMD -MF build/src/njs_array.dep -MT build/src/njs_array.o \
+	src/njs_array.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_json.o \
+	-MMD -MF build/src/njs_json.dep -MT build/src/njs_json.o \
+	src/njs_json.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_function.o \
+	-MMD -MF build/src/njs_function.dep -MT build/src/njs_function.o \
+	src/njs_function.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_regexp.o \
+	-MMD -MF build/src/njs_regexp.dep -MT build/src/njs_regexp.o \
+	src/njs_regexp.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_date.o \
+	-MMD -MF build/src/njs_date.dep -MT build/src/njs_date.o \
+	src/njs_date.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_error.o \
+	-MMD -MF build/src/njs_error.dep -MT build/src/njs_error.o \
+	src/njs_error.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_math.o \
+	-MMD -MF build/src/njs_math.dep -MT build/src/njs_math.o \
+	src/njs_math.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_timer.o \
+	-MMD -MF build/src/njs_timer.dep -MT build/src/njs_timer.o \
+	src/njs_timer.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_module.o \
+	-MMD -MF build/src/njs_module.dep -MT build/src/njs_module.o \
+	src/njs_module.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_event.o \
+	-MMD -MF build/src/njs_event.dep -MT build/src/njs_event.o \
+	src/njs_event.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_fs.o \
+	-MMD -MF build/src/njs_fs.dep -MT build/src/njs_fs.o \
+	src/njs_fs.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_crypto.o \
+	-MMD -MF build/src/njs_crypto.dep -MT build/src/njs_crypto.o \
+	src/njs_crypto.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_extern.o \
+	-MMD -MF build/src/njs_extern.dep -MT build/src/njs_extern.o \
+	src/njs_extern.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_variable.o \
+	-MMD -MF build/src/njs_variable.dep -MT build/src/njs_variable.o \
+	src/njs_variable.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_builtin.o \
+	-MMD -MF build/src/njs_builtin.dep -MT build/src/njs_builtin.o \
+	src/njs_builtin.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_lexer.o \
+	-MMD -MF build/src/njs_lexer.dep -MT build/src/njs_lexer.o \
+	src/njs_lexer.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_lexer_keyword.o \
+	-MMD -MF build/src/njs_lexer_keyword.dep -MT build/src/njs_lexer_keyword.o \
+	src/njs_lexer_keyword.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_parser.o \
+	-MMD -MF build/src/njs_parser.dep -MT build/src/njs_parser.o \
+	src/njs_parser.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_generator.o \
+	-MMD -MF build/src/njs_generator.dep -MT build/src/njs_generator.o \
+	src/njs_generator.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_disassembler.o \
+	-MMD -MF build/src/njs_disassembler.dep -MT build/src/njs_disassembler.o \
+	src/njs_disassembler.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_array_buffer.o \
+	-MMD -MF build/src/njs_array_buffer.dep -MT build/src/njs_array_buffer.o \
+	src/njs_array_buffer.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_typed_array.o \
+	-MMD -MF build/src/njs_typed_array.dep -MT build/src/njs_typed_array.o \
+	src/njs_typed_array.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_promise.o \
+	-MMD -MF build/src/njs_promise.dep -MT build/src/njs_promise.o \
+	src/njs_promise.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_query_string.o \
+	-MMD -MF build/src/njs_query_string.dep -MT build/src/njs_query_string.o \
+	src/njs_query_string.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_encoding.o \
+	-MMD -MF build/src/njs_encoding.dep -MT build/src/njs_encoding.o \
+	src/njs_encoding.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_buffer.o \
+	-MMD -MF build/src/njs_buffer.dep -MT build/src/njs_buffer.o \
+	src/njs_buffer.c
+cc -c -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   \
+	-Isrc -Ibuild -Injs \
+	-o build/src/njs_iterator.o \
+	-MMD -MF build/src/njs_iterator.dep -MT build/src/njs_iterator.o \
+	src/njs_iterator.c
+ar -r -c build/libnjs.a \
+	build/src/njs_diyfp.o build/src/njs_dtoa.o build/src/njs_dtoa_fixed.o build/src/njs_strtod.o build/src/njs_murmur_hash.o build/src/njs_djb_hash.o build/src/njs_utf8.o build/src/njs_utf16.o build/src/njs_arr.o build/src/njs_rbtree.o build/src/njs_lvlhsh.o build/src/njs_trace.o build/src/njs_random.o build/src/njs_md5.o build/src/njs_sha1.o build/src/njs_sha2.o build/src/njs_pcre.o build/src/njs_time.o build/src/njs_file.o build/src/njs_malloc.o build/src/njs_mp.o build/src/njs_sprintf.o build/src/njs_utils.o build/src/njs_chb.o build/src/njs_value.o build/src/njs_vm.o build/src/njs_vmcode.o build/src/njs_boolean.o build/src/njs_number.o build/src/njs_symbol.o build/src/njs_string.o build/src/njs_object.o build/src/njs_object_prop.o build/src/njs_array.o build/src/njs_json.o build/src/njs_function.o build/src/njs_regexp.o build/src/njs_date.o build/src/njs_error.o build/src/njs_math.o build/src/njs_timer.o build/src/njs_module.o build/src/njs_event.o build/src/njs_fs.o build/src/njs_crypto.o build/src/njs_extern.o build/src/njs_variable.o build/src/njs_builtin.o build/src/njs_lexer.o build/src/njs_lexer_keyword.o build/src/njs_parser.o build/src/njs_generator.o build/src/njs_disassembler.o build/src/njs_array_buffer.o build/src/njs_typed_array.o build/src/njs_promise.o build/src/njs_query_string.o build/src/njs_encoding.o build/src/njs_buffer.o build/src/njs_iterator.o 
+cc -O -o build/njs -pipe -fPIC -fvisibility=hidden -O -W -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-prototypes -Werror -g -O -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  \
+	 -Isrc -Ibuild -Injs \
+	src/njs_shell.c \
+	build/libnjs.a \
+	-lm  -lpcre -lreadline
+make[2]: Leaving directory '/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3'
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/addon/src/ngx_http_headers_more_filter_module.o \
+	/tmp/nginx.tRBPXmazZn/nginx-1.25.1/headers-more-nginx-module-0.34/src/ngx_http_headers_more_filter_module.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/addon/src/ngx_http_headers_more_headers_out.o \
+	/tmp/nginx.tRBPXmazZn/nginx-1.25.1/headers-more-nginx-module-0.34/src/ngx_http_headers_more_headers_out.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/addon/src/ngx_http_headers_more_headers_in.o \
+	/tmp/nginx.tRBPXmazZn/nginx-1.25.1/headers-more-nginx-module-0.34/src/ngx_http_headers_more_headers_in.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/addon/src/ngx_http_headers_more_util.o \
+	/tmp/nginx.tRBPXmazZn/nginx-1.25.1/headers-more-nginx-module-0.34/src/ngx_http_headers_more_util.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/addon/nginx-uuid4-module-master/ngx_http_uuid4.o \
+	/tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master/ngx_http_uuid4.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/addon/mt19937/mt19937-64.o \
+	/tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master/mt19937/mt19937-64.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g   -I src/core -I src/event -I src/event/modules -I src/event/quic -I src/os/unix -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/nginx-uuid4-module-master -I pcre-8.45 -I zlib-1.2.13 -I objs -I src/http -I src/http/modules -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../src -I /tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/../build \
+	-o objs/addon/nginx/ngx_http_js_module.o \
+	/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c
+[01m[K/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c:[m[K In function '[01m[Kngx_http_js_header_cookie[m[K':
+[01m[K/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c:2460:62:[m[K [01;31m[Kerror: [m[K'[01m[Kngx_http_headers_in_t[m[K' has no member named '[01m[Kcookies[m[K'; did you mean '[01m[Kcookie[m[K'?
+ 2460 |     return ngx_http_js_header_in_array(vm, r, &r->headers_in.[01;31m[Kcookies[m[K,
+      |                                                              [01;31m[K^~~~~~~[m[K
+      |                                                              [32m[Kcookie[m[K
+[01m[K/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c:[m[K In function '[01m[Kngx_http_js_header_x_forwarded_for[m[K':
+[01m[K/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c:2471:47:[m[K [01;31m[Kerror: [m[Kpassing argument 3 of '[01m[Kngx_http_js_header_in_array[m[K' from incompatible pointer type [[01;31m[K-Werror=incompatible-pointer-types[m[K]
+ 2471 |     return ngx_http_js_header_in_array(vm, r, [01;31m[K&r->headers_in.x_forwarded_for[m[K,
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kngx_table_elt_t ** {aka struct ngx_table_elt_s **}[m[K
+[01m[K/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c:168:41:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kngx_array_t *[m[K' but argument is of type '[01m[Kngx_table_elt_t **[m[K' {aka '[01m[Kstruct ngx_table_elt_s **[m[K'}
+  168 |     ngx_http_request_t *r, [01;36m[Kngx_array_t *array[m[K, u_char sep, njs_value_t *retval);
+      |                            [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c:[m[K In function '[01m[Kngx_http_js_header_cookie[m[K':
+[01m[K/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx/ngx_http_js_module.c:2462:1:[m[K [01;31m[Kerror: [m[Kcontrol reaches end of non-void function [[01;31m[K-Werror=return-type[m[K]
+ 2462 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+cc1: all warnings being treated as errors
+make[1]: *** [objs/Makefile:1334: objs/addon/nginx/ngx_http_js_module.o] Error 1
+make[1]: Leaving directory '/tmp/nginx.tRBPXmazZn/nginx-1.25.1'
+make: *** [Makefile:13: install] Error 2
+checking dirs
+release dir: /tmp/nginx.IIw7ypkPIz
+temp dir: /tmp/nginx.tRBPXmazZn
+total 4
+drwxr-xr-x 14 1001 1001 4096 Jun 26 15:04 nginx-1.25.1
+/tmp/nginx.tRBPXmazZn
+/tmp/nginx.tRBPXmazZn/nginx-1.25.1/objs/addon/nginx
+/tmp/nginx.tRBPXmazZn/nginx-1.25.1/njs-0.5.3/nginx
+***********************
+/sbin
+/usr/sbin
+/usr/local/sbin
+***********************
+lrwxrwxrwx 1 root root 8 Jun  5 14:02 /sbin -> usr/sbin
+***********************
+ls: cannot access '/tmp/nginx': No such file or directory
+***********************
+total 8
+drwx------ 2 root root 4096 Jun 26 15:05 nginx.IIw7ypkPIz
+drwx------ 3 root root 4096 Jun 26 15:04 nginx.tRBPXmazZn
+***********************
+total 4
+drwxr-xr-x 14 1001 1001 4096 Jun 26 15:04 nginx-1.25.1
+cp: cannot stat '/tmp/nginx/sbin/nginx': No such file or directory
+cp: cannot stat '/tmp/nginx/conf/mime.types': No such file or directory
+./
