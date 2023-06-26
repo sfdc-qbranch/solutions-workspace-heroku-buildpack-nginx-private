@@ -71,6 +71,6 @@ else
 fi
 
 # cleanup
-rm -r "$BUILD_DIR/nginx"
+# rm -r "$BUILD_DIR/nginx"
 
 exit 0
