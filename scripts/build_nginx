@@ -98,8 +98,7 @@ echo "***********************"
 ls -l $temp_dir
 
 
-# cp /tmp/nginx/sbin/nginx $release_dir/nginx
-# cp /sbin/nginx $release_dir/nginx
+cp /tmp/nginx/sbin/nginx $release_dir/nginx
 cp /tmp/nginx-debug/sbin/nginx $release_dir/nginx-debug
 cp /tmp/nginx/conf/mime.types $release_dir/mime.types
 tar -zcvf /tmp/nginx-"${STACK}".tgz -C $release_dir .
