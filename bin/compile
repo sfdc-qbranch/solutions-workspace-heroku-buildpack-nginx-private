@@ -19,6 +19,7 @@ cp "$BUILD_DIR/nginx/nginx-debug" "$BUILD_DIR/bin/nginx-debug"
 
 nginx_version=$($BUILD_DIR/bin/nginx -V 2>&1 | head -1 | awk '{ print $NF }')
 echo "-----> nginx-buildpack: Installed ${nginx_version} to app/bin"
+ls -l -R
 
 # The ERB templating feature requires a Ruby install at runtime, for the `erb` command.
 # As of Heroku-22, there is no system Ruby installation in the stack image, so if the
